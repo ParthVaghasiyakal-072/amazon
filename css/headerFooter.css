@@ -59,7 +59,7 @@ nav{
 }
 .column2{
     display: flex;
-    width: 75%;
+    /* width: 75%; */
     justify-content: space-evenly;  
 }
 .navPreTitle{
@@ -72,10 +72,17 @@ nav{
 .navTitle{
     font-size: 0.8vw;
     font-weight: 700;
-    color: white;
+    color: black;
+    margin-bottom: 0px;
 }
 .searchBar{
     width: 50vw;
+    height: 50px;
+    border: 2px solid #BCE3C9;
+    border-radius: 4px;
+}
+.searchBar input{
+    border: none ;
 }
 .form-control:focus{
     border-color: 1px solid white !important;
@@ -86,22 +93,27 @@ nav{
     box-shadow: 0 0 0 .25rem #febd69(13, 110, 253, .25);
 }
 .searchDropdown{
-    background-color: #e6e6e6 !important;
-    border: 1px solid #d5d5d5 !important;
-    width: 64px;
+    background-color: white !important;
+    /* border: none !important; */
+    width: 150px;
     font-size: 12px !important;
+    outline: none !important;
+    box-shadow: none !important;
+    border-right: 2px solid #ccc !important;
+
 }
 .searchDropdown:hover{
-    background-color: #d4d4d4 !important;
+    /* background-color: #d4d4d4 !important; */
     color: black !important;
 }
 .searchDropdown option{
     color: black;
 }
 .searchBtn{
-    background-color: #febd69 !important;
+    /* background-color: #febd69 !important; */
     color: #333333 !important;
-    border: 1px solid #febd69 !important;
+    border: none !important;
+    border-left:none !important; ;
 }
 .indianLogo{
     height: 15px;
@@ -113,7 +125,7 @@ nav{
 .signIn{
     color: white;
     padding: 10px;
-    border: 1px solid #131921;
+    /* border: 1px solid #131921; */
 }
 .orders{
     color: white;
@@ -127,7 +139,7 @@ nav{
     gap: 1px;
     position: relative;
     padding: 13px 7px;
-    border: 1px solid #131921;
+    /* border: 1px solid #131921; */
 }
 .cartNumber{
     position: absolute;
@@ -140,7 +152,7 @@ nav{
 }
 .cart i{
     font-size: 25px;
-    color: white;
+    color: black;
 }
 .logoContainer:hover, .location:hover,.language a:hover, .signIn:hover, .orders:hover, .cart:hover{
     border: 1px solid white;
