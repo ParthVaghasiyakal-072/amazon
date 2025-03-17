@@ -443,6 +443,370 @@
           "price": 499,
           "catogery": "mobile"
         }
-      ]
-  }
+    ],
+    "InspiredbyHistory": [
+        {
+            "id": "1",
+            "image": "image/carcleaning.jpg",
+            "title": "APPUCOCO Mini Car Trash Bin Can Holder Dustbin - Black (L 17 x W 6.5 cms)",
+            "starrating": 4,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "Best Seller",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": " Window Cleaners for Window Washing Installations",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "2",
+            "image": "image/cleaner.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 4,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "3",
+            "image": "image/facemask.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "4",
+            "image": "image/lapm.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "Best Seller",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Window Cleaners for Window Washing Installations",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "5",
+            "image": "image/musk.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "Best Seller",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Window Cleaners for Window Washing Installations",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "6",
+            "image": "image/shampoo.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "7",
+            "image": "image/sox.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "8",
+            "image": "image/towel.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "Best Seller",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Window Cleaners for Window Washing Installations",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "9",
+            "image": "image/brush.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "10",
+            "image": "image/sox.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "11",
+            "image": "image/towel.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "12",
+            "image": "image/brush.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        }
+    ],
+    "ViewedbyCustomers": [
+        {
+            "id": "1",
+            "image": "image/mask1.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 4,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "customerView",
+            "discription": " Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "2",
+            "image": "image/mask2.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 4,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "customerView",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "3",
+            "image": "image/mask3.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "customerView",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "4",
+            "image": "image/mask4.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "customerView",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "5",
+            "image": "image/mask5.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "customerView",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "6",
+            "image": "image/mask6.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "customerView",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "7",
+            "image": "image/mask7.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "customerView",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "8",
+            "image": "image/mask8.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "customerView",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "9",
+            "image": "image/mask9.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "customerView",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "10",
+            "image": "image/mask10.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "customerView",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "11",
+            "image": "image/mask4.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "customerView",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "12",
+            "image": "image/mask5.jpg",
+            "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "customerView",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        }
+    ]
+}
   
