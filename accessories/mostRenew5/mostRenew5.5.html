@@ -1,0 +1,1373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link mb-0 href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link mb-0 rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/headerFooter.css">
+    <link mb-0 rel="stylesheet" href="css/all.min.css">
+    <link mb-0 rel="stylesheet" href="css/owl.carousel.min.css">
+    <link mb-0 rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="navTop">
+            <div class="navTop1">
+
+                <div class="container-fluid responsiveHamburger">
+                    <div class="subMenu">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasNavbarHamburger" aria-controls="offcanvasNavbarHamburger"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><img src="image/hamburger.svg"></span>
+                        </button>
+                    </div>
+
+                    <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbarHamburger"
+                        aria-labelledby="offcanvasNavbarLabelHamburger">
+                        <div class="offcanvas-header">
+                            <i class="fa fa-user"></i>
+                            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hello, sign in</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                                <h5 class="subMenuHeading">Trending</h5>
+                                <li class="nav-item"><a class="nav-link" aria-current="page" href="">Best Sellers<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">New Releases<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Movers and Shakers<i
+                                            class="fa fa-angle-right"></i></a></li>
+
+                                <hr>
+
+                                <h5 class="subMenuHeading">Digital Content and Devices</h5>
+                                <li class="nav-item"><a class="nav-link" href="#">Sell<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Mobiles<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Today's Deals<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Electronics<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Home & Kitchen<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Fashion<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Computers<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Books<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Home Improvement<i
+                                            class="fa fa-angle-right"></i></a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Toys & Games<i
+                                            class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <a class="logoContainer" href="">
+                    <img class="logo" src="image/logo.png">
+                </a>
+
+                <a class="location location1">
+                    <i class="fa fa-map-marker"></i>
+                    <p class="navPreTitle"> Delivering to Surat 395007<br>
+                        <span class="navTitle">Update location</span>
+                    </p>
+                </a>
+            </div>
+
+            <div class="searchBar">
+                <div class="input-group">
+                    <select class="btn btn-outline-secondary dropdown-toggle searchDropdown" type="button"
+                        data-bs-toggle="dropdown" aria-expanded="false" style="text-align: left;">
+                        <option selected="selected" value="search-alias=aps">All</option>
+                        <option value="search-alias=aps">All Categories</option>
+                        <option value="search-alias=alexa-skills">Alexa Skills</option>
+                        <option value="search-alias=amazon-devices">Amazon Devices</option>
+                        <option value="search-alias=fashion">Amazon Fashion</option>
+                        <option value="search-alias=amazon-pharmacy">Amazon Pharmacy</option>
+                        <option value="search-alias=appliances">Appliances</option>
+                        <option value="search-alias=mobile-apps">Apps &amp; Games</option>
+                        <option value="search-alias=audible">Audible Audiobooks</option>
+                        <option value="search-alias=baby">Baby</option>
+                        <option value="search-alias=beauty">Beauty</option>
+                        <option value="search-alias=stripbooks">Books</option>
+                        <option value="search-alias=automotive">Car &amp; Motorbike</option>
+                        <option value="search-alias=apparel">Clothing &amp; Accessories</option>
+                        <option value="search-alias=collectibles">Collectibles</option>
+                        <option value="search-alias=computers">Computers &amp; Accessories</option>
+                        <option value="search-alias=todays-deals">Deals</option>
+                        <option value="search-alias=electronics">Electronics</option>
+                        <option value="search-alias=furniture">Furniture</option>
+                        <option value="search-alias=lawngarden">Garden &amp; Outdoors</option>
+                        <option value="search-alias=gift-cards">Gift Cards</option>
+                        <option value="search-alias=grocery">Grocery &amp; Gourmet Foods</option>
+                        <option value="search-alias=hpc">Health &amp; Personal Care</option>
+                        <option value="search-alias=kitchen">Home &amp; Kitchen</option>
+                        <option value="search-alias=industrial">Industrial &amp; Scientific</option>
+                        <option value="search-alias=jewelry">Jewellery</option>
+                        <option value="search-alias=digital-text">Kindle Store</option>
+                        <option value="search-alias=luggage">Luggage &amp; Bags</option>
+                        <option value="search-alias=luxury-beauty">Luxury Beauty</option>
+                        <option value="search-alias=dvd">Movies &amp; TV Shows</option>
+                        <option value="search-alias=digital-music">MP3 Music</option>
+                        <option value="search-alias=popular">Music</option>
+                        <option value="search-alias=mi">Musical Instruments</option>
+                        <option value="search-alias=office-products">Office Products</option>
+                        <option value="search-alias=pets">Pet Supplies</option>
+                        <option value="search-alias=instant-video">Prime Video</option>
+                        <option value="search-alias=shoes">Shoes &amp; Handbags</option>
+                        <option value="search-alias=software">Software</option>
+                        <option value="search-alias=sporting">Sports, Fitness &amp; Outdoors</option>
+                        <option value="search-alias=specialty-aps-sns">Subscribe &amp; Save</option>
+                        <option value="search-alias=home-improvement">Tools &amp; Home Improvement</option>
+                        <option value="search-alias=toys">Toys &amp; Games</option>
+                        <option value="search-alias=under-ten-dollars">Under ₹500</option>
+                        <option value="search-alias=videogames">Video Games</option>
+                        <option value="search-alias=watches">Watches</option>
+                    </select>
+                    <input type="text" class="form-control" aria-label="Text input with dropdown button"
+                        placeholder="Search Amazon.in">
+                    <button class="btn btn-outline-secondary searchBtn" type="button" id="button-addon2"><i
+                            class="fa fa-search seachIcon"></i></button>
+                </div>
+            </div>
+
+            <div class="navTop2">
+                <div class="column1">
+                    <a class="location location2">
+                        <i class="fa fa-map-marker"></i>
+                        <p class="navPreTitle"> Delivering to Surat 395007<br>
+                            <span class="navTitle">Update location</span>
+                        </p>
+                    </a>
+
+                    <a class="language">
+                        <a class="" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img class="indianLogo" src="image/india.jpg">
+                            <span class="navTitle">EN</span>
+                        </a>
+                    </a>
+                </div>
+
+                <div class="column2">
+                    <a href="" class="signIn">
+                        <p class="navPreTitle">Hello, sign in</p>
+                        <h6 class="navTitle">Account & Lists</h6>
+                    </a>
+
+                    <a class="orders">
+                        <p class="navPreTitle">Returns</p>
+                        <h6 class="navTitle">& Orders</h6>
+                    </a>
+
+                    <a class="cart">
+                        <span class="cartNumber">0</span>
+                        <i class="fa fa-shopping-cart"></i>
+                        <h6 class="navTitle">Cart</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="navBottom">
+            <div class="hamburger">
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <div class="subMenu">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasNavbarNavbar" aria-controls="offcanvasNavbarNavbar"
+                                aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"><img src="image/hamburger.svg"></span>
+                                <a class="navbar-brand" href="#">All</a>
+                            </button>
+                        </div>
+
+                        <div class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasNavbarNavbar"
+                            aria-labelledby="offcanvasNavbarLabelNavbar">
+                            <div class="offcanvas-header">
+                                <i class="fa fa-user"></i>
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Hello, sign in</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+
+                                    <h5 class="subMenuHeading">Trending</h5>
+                                    <li class="nav-item"><a class="nav-link" aria-current="page" href="">Best Sellers<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">New Releases<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Movers and Shakers<i
+                                                class="fa fa-angle-right"></i></a></li>
+
+                                    <hr>
+
+                                    <h5 class="subMenuHeading">Digital Content and Devices</h5>
+                                    <li class="nav-item"><a class="nav-link" href="#">Sell<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Mobiles<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Today's Deals<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Electronics<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Home & Kitchen<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Fashion<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Computers<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Books<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Home Improvement<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#">Toys & Games<i
+                                                class="fa fa-angle-right"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <ul class="navBarList">
+                            <li><a href="">Sell</a></li>
+                            <li><a href="">Best Sellers</a></li>
+                            <li><a href="">Mobiles</a></li>
+                            <li><a href="">Today's Deals</a></li>
+                            <li><a href="">Electronics</a></li>
+                            <li><a href="">New Releases</a></li>
+                            <li><a href="">Home & Kitchen</a></li>
+                            <li><a href="">Fashion</a></li>
+                            <li><a href="">Computers</a></li>
+                            <li><a href="">Books</a></li>
+                            <li><a href="">Home Improvement</a></li>
+                            <li><a href="">Toys & Games</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- ............................ START IMG SECTION ............................... -->
+
+    <div class="container">
+        <div class="row m-0">
+            <div class="col-md-3 col-12 mt-5">
+                <div class="owl-carousel computer owl-theme position-sticky top-0 position-sticky top-0">
+                    <div class="item">
+                        <img src="image/slide5.jpg" alt="1">
+                    </div>
+                    <div class="item">
+                        <img src="image/slide5.1.jpg" alt="2">
+                    </div>
+                    <div class="item">
+                        <img src="image/slide5.2.jpg" alt="3">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-12">
+                <h4 class="head_txt pt-3"> pTron Newly Launched Tangent Eon BT v5.3 Wireless in-Ear Neckband, TruTalk
+                    AI-ENC
+                    for Clear Calls, 13mm Dynamic Driver, Deep Bass, Type-C Fast Charging, Dual Pairing,
+                    Voice Assistant & IPX5 (Grey).
+                </h4>
+                <p class="card_icon mb-0">
+                    <a href="" class="">
+                        <span class="text-black-50">4.3</span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-solid fa-star"></i></span>
+                        <span><i class="fa-regular fa-star"></i></span>
+                        <span class="text_color">86120 rating</span> <br>
+                        <span class="rup">₹190.00</span>
+                    </a>
+                </p>
+                <p class="smll_text">10K+ bought in past month</p>
+
+                <p>
+                <div class="d-flex">
+                    <div class="sqare11 ps-1">
+                        <span>Amazon's</span> <span class="span_text">Choice</span>
+                    </div>
+                    <div class="sqare211"></div>
+                </div>
+                </p>
+                <p class="text2">10K+ bought in past month</p>
+                <div class="border-top border-bottom py-2">
+                    <span class="text_red fw-bold">Limited time deal</span>
+                    <div class="pt-2">
+                        <h4>
+                            <span class="off_text">-65%</span> <span>₹190</span>
+                        </h4>
+                        <p class="mrp_text">M.R.P.:<strike>₹604</strike> </p>
+                        <span class="taxx_text">Inclusive of all taxes</span>
+                    </div>
+                </div>
+                <div class="mt-3"><img src="/image/icon.png" alt="" height="24px" width="24px"> <span
+                        class="fw-bold">Offers</span>
+                </div>
+                <div class="d-flex gap-3 mt-2 border-bottom pb-3">
+                    <div class="box px-3 py-2 ">
+                        <p class="fw-bold">Bank Offer</p>
+                        <p class="pb-3">Upto ₹2000.00 <br> discount on select ...</p>
+                        <p><a href="#" class="text-decoration-none">1 offers ></a></p>
+                    </div>
+                    <div class="box px-3 py-2">
+                        <p class="fw-bold">Partner Offers</p>
+                        <p class="pb-3">Get GST invoice and <br> save up to 28% on ...</p>
+                        <p><a href="#" class="text-decoration-none">1 offers></a></p>
+                    </div>
+                </div>
+
+                <div class="mt-2 icon_sec d-flex gap-4 text-center border-bottom overflow-hidden ">
+                    <div class="">
+                        <a href="" class="text-decoration-none">
+                            <img src="/image/icon1.png" height="28px" width="28px" alt="">
+                            <p>Free Delivery</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="text-decoration-none">
+                            <img src="/image/icon2.png" height="28px" width="28px" alt="">
+                            <p>Pay on Delivery</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="text-decoration-none">
+                            <img src="/image/icon3.png" height="28px" width="28px" alt="">
+                            <p>7 Days Replacement</p>
+                        </a>
+                    </div>
+
+                    <div>
+                        <a href="" class="text-decoration-none">
+                            <img src="/image/icon5.png" height="28px" width="28px" alt="">
+                            <p>Top Brand</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="" class="text-decoration-none">
+                            <img src="/image/icon6.png" height="28px" width="28px" alt="">
+                            <p>Secure transaction
+                            </p>
+                        </a>
+                    </div>
+                </div>
+
+
+                <p class="mt-3 patt_text ">Style Name: <span class="fw-bold">2024 Model</span> </p>
+                <div class="d-flex border-bottom">
+                    <ul class="ul_text fw-bold">
+                        <li>Brand</li>
+                        <li>Colour </li>
+                        <li>Form Factor</li>
+                        <li>Power Source </li>
+                        <li>Wireless Communication</li>
+                    </ul>
+
+                    <ul class="ul_text ps-2">
+                        <li>pTron</li>
+                        <li>Grey</li>
+                        <li> In Ear</li>
+                        <li> Wireless</li>
+                        <li>Bluetooth</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="ab_text fw-bold mt-3">About this item</h4>
+                    <ul class="full_text">
+                        <li>
+                            Crystal-clear calls: HD mic & TruTalk AI-ENC technology that aims to improve call quality by
+                            automatic background noise reduction on voice calls | 13mm Dynamic Drivers deliver Immersive
+                            Stereo Sound.
+                        </li>
+                        <li>
+                            Lag-free Connection: Advanced Bluetooth v5.3 with 1-Step Pairing, 10 meters Strong Wireless
+                            Connectivity & Dual-Device Pairing. 50ms low-latency modes for seamless movie and music
+                            streaming.
+
+                        </li>
+                        <li>
+                            All-day Entertainment: Massive 45-hour Battery Life lets you listen Non-stop | Lightweight
+                            wireless neckband with Flexible band, Multifunction Music/Call controls, & Instant Access to
+                            Voice Assistant
+                        </li>
+                        <li>
+                            Ergonomic In-ear Magnetic Earbuds Minimises External Noises for an Uninterrupted Listening
+                            session | Type-C Fast Charging Port DC5V-1A | IPX5 Water & Sweat Resistance
+                        </li>
+                        <li>
+                            S/M/L Size Silicone Eartips for Comfort & Secure fit experience | 1-Year Manufacturer
+                            Warranty from the date of purchase on Manufacturing defects only
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- ADD CART SECTION    .......................  -->
+
+            <div class="col-md-3 col-12 mt-3">
+
+                <div class="box1 py-3 px-4 border">
+                    <p class="fs-2 "><span class="fs-6 text-dark">₹</span><span class="text-dark">190</span><span
+                            class="fs-6 text-dark">00</span></h1>
+                    </p>
+                    <div class="mb-3">
+                        <a href="#" class="description font14 text-decoration-none"> FREE delivery Sunday, <b
+                                class="text-dark">Saturday, April 20</b> Details</a>
+                    </div>
+                    <p class="font14 mb-3">Or fastest delivery <b>Tomorrow, 20 April.</b> Order within <span
+                            class="green">4 hrs
+                            46 mins.</span> <span class="description">Details</span> </p>
+
+                    <div class="d-flex">
+                        <div class="col-md-2">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <p class="description font12">Delivering to Surat 395007 - Update location</p>
+                        </div>
+                    </div>
+
+                    <h5 class="green">In stock</h5>
+                    <div class="d-flex flex-wrap">
+                        <div class="col-xl-5 col-lg-12 col-md-12 col-sm-12">
+                            <p class="mb-0 smalltext">Ships from</p>
+                            <p class="mb-0 smalltext">Sold by</p>
+                            <p class="mb-0 smalltext">Packaging</p>
+                            <p></p>
+                            <h6>Quantity:</h6>
+                        </div>
+                        <div class="col-xl-7 col-lg-12 col-md-12 col-sm-12">
+                            <p class="mb-0 description font12">Amazon</p>
+
+                            <div>
+                                <a class="description font12">Cocoblu Retail</a>
+                            </div>
+
+                            <div>
+                                <a class="description font12">Ships in product packaging</a>
+                            </div>
+
+                            <!-- <div class="border w-25 ps-2">1 <i class="fa-solid fa-arrow-down ps-1"></i> </div> -->
+                        </div>
+                    </div>
+
+                    <div>
+                        <button class="cartbtn border-0 w-100 py-1 my-2">Add to Cart</button>
+                    </div>
+
+                    <div>
+                        <button class="buynowbtn border-0 w-100 py-1"> Buy Now </button>
+                    </div>
+
+                    <p class="mb-0 my-2 text-secondary"> <i class="fa-solid fa-lock px-1"></i> <span
+                            class="description">Secure
+                            transaction</span> </p>
+
+                    <div class="form-group border-bottom my-1">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Add gift options</label>
+                        </div>
+                    </div>
+
+                    <button class="w-100 rounded border-secondary my-1"> Add to Wish List </button>
+
+                </div>
+
+                <div class="box2 py-3 px-4 border my-2">
+                    <h6 class="border-bottom">Other sellers on Amazon</h6>
+                    <div class="d-flex">
+
+                        <div class="col-md-11">
+                            <p>New (2) from <span class="fs-6 text-dark">₹</span><span class="text-dark">699</span><span
+                                    class="fs-6 text-dark">00</span></p>
+                            <a class="text-decoration-none Fulfilled text-white p-1">Fulfilled</a> <span>FREE
+                                Delivery</span>
+                        </div>
+
+                        <div class="col-md-1">
+                            <span><i class="fa-solid fa-chevron-right fs-6"></i></span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  .................. 2nd Raw START ............................ -->
+    <div class="container">
+        <div class="row m-0 ">
+            <div class="col-sm-12 mt-5 mb-3">
+                <div>
+                    <div class="d-flex">
+                        <div class="sqare sqare11 ">
+                            <span class="ps-3">Top Brand</span>
+                        </div>
+                        <div class="sqare2 sqare211">
+
+                        </div>
+                        <div class="fw-bold mb-3">pTron</div>
+                    </div>
+
+                    <div class="true_text">
+                        <p><img src="/image/true.png" height="18px" width="18px" alt=""> <span>88% positive ratings
+                                from
+                                500K+
+                                customers</span></p>
+                        <p><img src="/image/true.png" height="18px" width="18px" alt=""> <span>100K+ recent orders
+                                from
+                                this
+                                brand</span></p>
+                        <p><img src="/image/true.png" height="18px" width="18px" alt=""> <span>10+ years on
+                                Amazon</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--  .................. 2nd Raw END ............................ -->
+
+  <!--  .................. 3rd Raw START ............................ -->
+  <div class="container ">
+    <div class="row ">
+        <div class="owl-carousel computer12 owl-theme g-5 mb-4">
+            <div class="item">
+                <div class="card">
+                    <img src="image/slide1.jpg" height="160px" width="145px" alt class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text card_link mb-0 mt-2"> <a href="mostRenew5.1.html">
+                                AmazonBasics Bluetooth 5.0 Neckband with Magnetic Earbuds | Up to 30 Hours Playtime
+                                | Voice Assistant | Dual Pairing | IPX6 Rated (Blue+Black).
+                            </a>
+                        </p>
+                        <p class="card_icon mb-0">
+                            <a href="" class="">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span class="text_color">86120</span> <br>
+                                <span class="rup">₹297.00</span>
+                            </a>
+                        </p>
+                        <p class="smll_text mb-0">2K+ bought in past month</p>
+                        <div class="d-flex deal_text">
+                            <div class="me-2 text-white mt-2">
+                                <span class="red_box py-1 px-2  ">53% off</span>
+                            </div>
+                            <div>
+                                <span class="red_text lh-1">Limited Time <br> Deal</span>
+                            </div>
+                        </div>
+                        <h5>₹359 <sup>00</sup></h5>
+                        <div class="d-flex justify-content-start">
+                            <a href="#"><img src="/image/prime-removebg-preview.png" height="12px" width="18px"
+                                    alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="card">
+
+                    <img src="image/slide2.jpg" height="160px" width="145px" alt class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text card_link mb-0 mt-2"> <a href="mostRenew5.2.html">
+                                pTron Tangentbeat in-Ear Bluetooth Wireless Headphones with Mic, Punchy Bass, 10mm
+                                Drivers, Clear Calls, Dual Pairing, Fast Charging, Magnetic Buds, Voice Assist. &
+                                IPX4 Wireless Neckband (Dark Green).
+                            </a>
+
+                        </p>
+                        <p class="card_icon mb-0">
+                            <a href="" class="">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span class="text_color">2938</span> <br>
+                                <span class="rup">₹359.00</span>
+                            </a>
+                        </p>
+                        <p class="smll_text mb-0">2K+ bought in past month</p>
+                        <div class="d-flex deal_text">
+                            <div class="me-2 text-white mt-2">
+                                <span class="red_box py-1 px-2  ">53% off</span>
+                            </div>
+                            <div>
+                                <span class="red_text lh-1">Limited Time <br> Deal</span>
+                            </div>
+                        </div>
+                        <h5>₹319 <sup>00</sup></h5>
+                        <div class="d-flex justify-content-start">
+                            <a href="#"><img src="/image/prime-removebg-preview.png" height="12px" width="18px"
+                                    alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item">
+                <div class="card">
+                    <img src="image/slide3.jpg" height="160px" width="145px" alt class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text card_link mb-0 mt-2"> <a href="mostRenew5.3.html">
+                                Zimo AeroFlex Bluetooth 5.2 Wireless in-Ear Headphones, 18Hrs Playtime, Deep Bass,
+                                HD Calls, Dual Device Pairing, Voice Assist, Type-C Fast Charge Wireless Neckband,
+                                IPX4 Water Resistant (Blue/Black).
+                            </a>
+
+                        </p>
+                        <p class="card_icon mb-0">
+                            <a href="" class="">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span class="text_color">44393</span> <br>
+                                <span class="rup">₹297.00</span>
+                            </a>
+                        </p>
+                        <p class="smll_text mb-0">2K+ bought in past month</p>
+                        <div class="d-flex deal_text">
+                            <div class="me-2 text-white mt-2">
+                                <span class="red_box py-1 px-2  ">53% off</span>
+                            </div>
+                            <div>
+                                <span class="red_text lh-1">Limited Time <br> Deal</span>
+                            </div>
+                        </div>
+                        <h5>₹419 <sup>00</sup></h5>
+                        <div class="d-flex justify-content-start">
+                            <a href="#"><img src="/image/prime-removebg-preview.png" height="12px" width="18px"
+                                    alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="card">
+
+                    <img src="image/slide4.jpg" height="160px" width="145px" alt class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text card_link mb-0 mt-2"> <a href="mostRenew5.4.html">
+                                Ditto Hub Secret Series Bluetooth in Ear Neckband Earphone with 16 Hours Playback
+                                Time Bluetooth Headset.
+                            </a>
+
+                        </p>
+                        <p class="card_icon mb-0">
+                            <a href="" class="">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span class="text_color">11222</span> <br>
+                                <span class="rup">499.00</span>
+                            </a>
+                        </p>
+                        <p class="smll_text mb-0">2K+ bought in past month</p>
+                        <div class="d-flex deal_text">
+                            <div class="me-2 text-white mt-2">
+                                <span class="red_box py-1 px-2  ">53% off</span>
+                            </div>
+                            <div>
+                                <span class="red_text lh-1">Limited Time <br> Deal</span>
+                            </div>
+                        </div>
+                        <h5>₹399 <sup>00</sup></h5>
+                        <div class="d-flex justify-content-start">
+                            <a href="#"><img src="/image/prime-removebg-preview.png" height="12px" width="18px"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="card">
+
+                    <img src="image/slide5.jpg" height="160px" width="145px" alt class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text card_link mb-0 mt-2"> <a href="mostRenew5.5.html">
+                                pTron Newly Launched Tangent Eon BT v5.3 Wireless in-Ear Neckband, TruTalk AI-ENC
+                                for Clear Calls, 13mm Dynamic Driver, Deep Bass, Type-C Fast Charging, Dual Pairing,
+                                Voice Assistant & IPX5 (Grey).
+                            </a>
+                        </p>
+                        <p class="card_icon mb-0">
+                            <a href="" class="">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span class="text_color">4998</span> <br>
+                                <span class="rup">₹297.00</span>
+                            </a>
+                        </p>
+                        <p class="smll_text mb-0">400K+ bought in past month</p>
+                        <div class="d-flex deal_text">
+                            <div class="me-2 text-white mt-2">
+                                <span class="red_box py-1 px-2  ">53% off</span>
+                            </div>
+                            <div>
+                                <span class="red_text lh-1">Limited Time <br> Deal</span>
+                            </div>
+                        </div>
+                        <h5>₹339 <sup>00</sup></h5>
+                        <div class="d-flex justify-content-start">
+                            <a href="#"><img src="/image/prime-removebg-preview.png" height="12px" width="18px"
+                                    alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="card">
+
+                    <img src="image/slide6.jpg" height="160px" width="145px" alt class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text card_link mb-0 mt-2"> <a href="mostRenew5.6.html">
+                                Portronics Harmonics Z7 Bluetooth Wireless in Ear Earphones with Upto 40 Hours
+                                Playback, 10mm Dynamic Driver, Gaming Mode, High Bass, IPX4 Water and Sweat
+                                Resistant, Type C Fast Charging(Black).
+                            </a>
+                        </p>
+                        <p class="card_icon mb-0">
+                            <a href="" class="">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span class="text_color">6358</span> <br>
+                                <span class="rup">₹318.00</span>
+                            </a>
+                        </p>
+                        <p class="smll_text mb-0">20K+ bought in past month</p>
+                        <div class="d-flex deal_text">
+                            <div class="me-2 text-white mt-2">
+                                <span class="red_box py-1 px-2  ">53% off</span>
+                            </div>
+                            <div>
+                                <span class="red_text lh-1">Limited Time <br> Deal</span>
+                            </div>
+                        </div>
+                        <h5>₹359 <sup>00</sup></h5>
+                        <div class="d-flex justify-content-start">
+                            <a href="#"><img src="/image/prime-removebg-preview.png" height="12px" width="18px"
+                                    alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="card">
+
+                    <img src="image/slide7.jpg" height="160px" width="145px" alt class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text card_link mb-0 mt-2"> <a href="mostRenew5.7.html">
+                                boAt Rockerz 245 v2 Pro Wireless in Ear Neckband with Up to 30 hrs Playtime, ENx
+                                Tech, ASAP Charge, Beast Mode, Dual Pairing, Magnetic Buds,USB Type-C
+                                Interface&IPX5(Active Black).
+                            </a>
+
+                        </p>
+                        <p class="card_icon mb-0">
+                            <a href="" class="">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span class="text_color">5687</span> <br>
+                                <span class="rup">₹319.00</span>
+                            </a>
+                        </p>
+                        <p class="smll_text mb-0">533K+ bought in past month</p>
+                        <div class="d-flex deal_text">
+                            <div class="me-2 text-white mt-2">
+                                <span class="red_box py-1 px-2  ">53% off</span>
+                            </div>
+                            <div>
+                                <span class="red_text lh-1">Limited Time <br> Deal</span>
+                            </div>
+                        </div>
+                        <h5>₹449 <sup>00</sup></h5>
+                        <div class="d-flex justify-content-start">
+                            <a href="#"><img src="/image/prime-removebg-preview.png" height="12px" width="18px"
+                                    alt=""></a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="item">
+                <div class="card">
+
+                    <img src="image/slide8.jpg" height="160px" width="145px" alt class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text card_link mb-0 mt-2"> <a href="mostRenew5.8.html">
+                                Foxin FoxBeat 210 Music Neckband Earphones | 10mm Speaker Driver, Lightweight | Made
+                                in India - Ideal for Music & Games.
+                            </a>
+                        </p>
+                        <p class="card_icon mb-0">
+                            <a href="" class="">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span class="text_color">6956</span> <br>
+                                <span class="rup">₹359.00</span>
+                            </a>
+                        </p>
+                        <p class="smll_text mb-0">2K+ bought in past month</p>
+                        <div class="d-flex deal_text">
+                            <div class="me-2 text-white mt-2">
+                                <span class="red_box py-1 px-2  ">53% off</span>
+                            </div>
+                            <div>
+                                <span class="red_text lh-1">Limited Time <br> Deal</span>
+                            </div>
+                        </div>
+                        <h5>₹389 <sup>00</sup></h5>
+                        <div class="d-flex justify-content-start">
+                            <a href="#"><img src="/image/prime-removebg-preview.png" height="12px" width="18px"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="card">
+
+                    <img src="image/slide9.jpg" height="160px" width="145px" alt class="card-img-top">
+                    <div class="card-body">
+                        <p class="card-text card_link mb-0 mt-2"> <a href="mostRenew5.9.html">
+                                Foxin FoxBeat 220 Gaming Neckband Earphones | 60MS Low Latency, Lightweight | Made
+                                in India - Ideal for Music & Games.
+                            </a>
+                        </p>
+                        <p class="card_icon mb-0">
+                            <a href="" class="">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-regular fa-star"></i></span>
+                                <span class="text_color">15696</span> <br>
+                                <span class="rup">₹587.00</span>
+                            </a>
+                        </p>
+                        <p class="smll_text mb-0">44K+ bought in past month</p>
+                        <div class="d-flex deal_text">
+                            <div class="me-2 text-white mt-2">
+                                <span class="red_box py-1 px-2  ">53% off</span>
+                            </div>
+                            <div>
+                                <span class="red_text lh-1">Limited Time <br> Deal</span>
+                            </div>
+                        </div>
+                        <h5>₹329 <sup>00</sup></h5>
+                        <div class="d-flex justify-content-start">
+                            <a href="#"><img src="/image/prime-removebg-preview.png" height="12px" width="18px"
+                                    alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--  .................. 3rd Raw END ............................ -->->
+
+    <!--  .................. 5th   Raw START ............................ -->
+    <!-- Customer reviews section ... -->
+
+    <div class="container py-3">
+        <div class="row">
+            <div class="col-xl-4 col-md-12 col-lg-12 px-5">
+                <h5 class="fw-bold mb-0">Customer reviews</h5>
+                <p href="#" class="review_bold mb-2"><i class="fa fa-star review_product" aria-hidden="true"></i><i
+                        class="fa fa-star review_product" aria-hidden="true"></i><i class="fa fa-star review_product"
+                        aria-hidden="true"></i><i class="fa-regular fa-star review_product"></i><i
+                        class="fa-regular fa-star review_product"></i> 3.9 out of 5</p>
+                <p class="review_secondary  product_fontsize">470 global ratings</p>
+                <div class="d-flex ">
+                    <div class=" text-nowrap">
+                        <a href="#" class="reviews_color1 d-block ">5 star</a>
+                        <a href="#" class="reviews_color1 d-block my-2">4 star</a>
+                        <a href="#" class="reviews_color1 d-block my-2">3 star</a>
+                        <a href="#" class="reviews_color1 d-block my-2">2 star</a>
+                        <a href="#" class="reviews_color1 d-block my-2">1 star</a>
+                    </div>
+                    <div class="progress_width mx-3">
+                        <div class="progress border border-secondary rounded-3 my-1 progress_hight bg-light">
+                            <div class="progress-bar progress_color" role="progressbar" style="width: 64%"
+                                aria-valuenow="44" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress border border-secondary rounded-3 progress_hight bg-light">
+                            <div class="progress-bar progress_color" role="progressbar" style="width: 48%"
+                                aria-valuenow="27" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress border border-secondary rounded-3 progress_hight bg-light">
+                            <div class="progress-bar progress_color" role="progressbar" style="width: 10%"
+                                aria-valuenow="8" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress border border-secondary rounded-3 progress_hight bg-light">
+                            <div class="progress-bar progress_color" role="progressbar" style="width: 4%"
+                                aria-valuenow="4" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress border border-secondary rounded-3 progress_hight bg-light">
+                            <div class="progress-bar progress_color" role="progressbar" style="width: 2%"
+                                aria-valuenow="17" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div>
+                        <div>
+                            <a href="#" class="reviews_color1 d-block ">64%</a>
+                            <a href="#" class="reviews_color1 d-block my-2">48%</a>
+                            <a href="#" class="reviews_color1 d-block my-2">10%</a>
+                            <a href="#" class="reviews_color1 d-block my-2">4%</a>
+                            <a href="#" class="reviews_color1 d-block my-2">2%</a>
+                        </div>
+
+                    </div>
+
+
+                </div>
+                <div>
+                    <a href="#" class="reviews_color1 product_fontsize mb-2 text_redlight text_redlight:hover">How are
+                        ratings calculated?</a>
+                    <p class="product_fontsize pr_size">To calculate the overall star rating and percentage breakdown by
+                        star,
+                        we don’t use a simple
+                        average. Instead, our system considers things like how recent a review is and if the
+                        reviewer bought the item on Amazon. It also analyses reviews to verify trustworthiness.</p>
+                    <hr>
+                    </hr>
+
+                    <h5 class="fw-bold">Review this product</h5>
+                    <p class="product_fontsize">Share your thoughts with other customers</p>
+                    <button
+                        class="text-center rounded border border_secondary rounded-3 product_fontsize py-1 product1 my-2">Write
+                        a product review</button>
+                </div>
+            </div>
+
+            <!-- Customers say section... -->
+            <div class="col-xl-6 col-md-12 col-lg-12 px-5">
+                <h4 class="fw-bold ">customer say</h4>
+                <p class="cos_say pr_size">Customers like the sound quality, connectivity, comfort, appearance and
+                    performance of the headphones. For example, they mention the mic quality is good, Bluetooth
+                    connectivity is stable and quick, and it looks really cool. They appreciate the performance, saying
+                    the 13mm dynamic driver is exceptional and provides deep bass. Customers are also satisfied with
+                    value, battery life, and weight.
+                </p>
+                <hr>
+                </hr>
+
+                <!-- reviews section 1 .... -->
+                <div>
+                    <h5 class="fw-bold mb-0">Top reviews from India</h5>
+                    <button class="rounded border border_secondary rounded-3 product_fontsize py-1 px-2 my-2">Translate
+                        all reviews to English</button>
+
+                    <div class="d-flex">
+                        <div>
+                            <img src="/image/user1.jpg" width="30px" />
+                        </div>
+                        <div class="mx-3 product_fontsize">
+                            <p class="py-1 m-0">Rabin Ghosh</p>
+                        </div>
+                    </div>
+                    <a href="#" class="fw-bold mb-2 product_fontsize text_redlight"><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i>
+                        Fully Satisfied
+                    </a>
+
+                    <p class="review_secondary product_fontsize m-0">Reviewed in India on 1 April 2024 |<span
+                            class="orangeA fw-bold fs"> Verified
+                            Purchase</span></p>
+                    <p class="product_fontsize pr_size">
+                        I recently purchased the Ptron Neckband, and I must say, I am thoroughly impressed with this
+                        wireless neckband. It's incredibly lightweight and comfortable to wear for extended periods,
+                        thanks to the flexible neckband design that ensures a secure fit around my neck. The sound
+                        quality of these neckbands is nothing short of exceptional. The Ptron Neckband delivers rich,
+                        clear, and well-balanced audio. One of the standout features of the Ptron Neckband is its
+                        impressive battery life. <br>
+                        I can easily go through several days of moderate use on a single
+                        charge. The Bluetooth connectivity is stable and quick, and I've had no issues with dropouts or
+                        disconnections. The built-in microphone provides crystal-clear call quality. These neckbands are
+                        designed with comfort in mind. Overall I am fully satisfied with this Neckband.
+                    </p>
+
+
+                    <p class="review_secondary product_fontsize">6 people found this helpful</p>
+                    <span><button
+                            class="rounded border border_secondary rounded-3 product_fontsize py-1 px-2 my-2">Helpful</button>
+                        | <span class="product_fontsize review_secondary">Report</span></span>
+                </div>
+
+                <!-- reviews section 2... -->
+                <div class="mt-3">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/image/user1.jpg" width="30px" />
+                        </div>
+                        <div class="mx-3 product_fontsize">
+                            <p class="py-1 m-0"> Rahul bajpai</p>
+                        </div>
+                    </div>
+                    <a href="#" class="fw-bold mb-2 product_fontsize text_redlight"><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i>Superb product</a>
+                    <p class="review_secondary product_fontsize m-0">Reviewed in India on 6 January 2024 <span
+                            class="orangeA fw-bold fs"> Verified
+                            Purchase</span></p>
+                    <p class="product_fontsize m-0 pr_size">
+                        Awesome build quality, sound better than boat or any other product, high battery backup, overall
+                        awesome product superbb
+                    </p>
+                    <p class="review_secondary product_fontsize">41 people found this helpful</p>
+                    <span><button
+                            class="rounded border border_secondary rounded-3 product_fontsize py-1 px-2 my-2">Helpful</button>
+                        | <span class="product_fontsize review_secondary">Report</span></span>
+                </div>
+
+                <!-- reviews section  3... -->
+                <div class="mt-3">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/image/user1.jpg" width="30px" />
+                        </div>
+                        <div class="mx-3 product_fontsize">
+                            <p class="py-1 m-0">Ankit Saini</p>
+                        </div>
+                    </div>
+                    <a href="#" class="fw-bold mb-2 product_fontsize text_redlight"><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i>Best product</a>
+                    <p class="review_secondary product_fontsize m-0">Reviewed in India on 25 March 2024 <span
+                            class="orangeA fw-bold fs"> Verified
+                            Purchase</span></p>
+                    <p class="product_fontsize pr_size">
+                        earphone is so good and amazing. Looking cool ans awesome sound quality is very good. Best
+                        product for calling purpose. Noise cancellation is also available. Battery backup is good. Best
+                        for games also. Performance is so good .. power charging.. once pair auto connectivity..
+                    </p>
+                    <p class="review_secondary product_fontsize">43 people found this helpful</p>
+                    <span><button
+                            class="rounded border border_secondary rounded-3 product_fontsize py-1 px-2 my-2">Helpful</button>
+                        | <span class="product_fontsize review_secondary">Report</span></span>
+                </div>
+                <!-- reviews section  4... -->
+                <div class="mt-3">
+                    <div class="d-flex">
+                        <div>
+                            <img src="/image/user1.jpg" width="30px" />
+                        </div>
+                        <div class="mx-3 product_fontsize">
+                            <p class="py-1 m-0">Sandy</p>
+                        </div>
+                    </div>
+                    <a href="#" class="fw-bold mb-2 product_fontsize text_redlight"><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i><i
+                            class="fa fa-star review_product product_fontsize" aria-hidden="true"></i>
+                        Good product for a decent price</a>
+                    <p class="review_secondary product_fontsize m-0">Reviewed in India on 25 March 2024 <span
+                            class="orangeA fw-bold fs"> Verified
+                            Purchase</span></p>
+                    <p class="product_fontsize pr_size">
+                        This product is wonderful for it's Price Sound quality and battery backup is
+                        extraordinary . Only problem is the length of the wire , its a bit short for long necks . Voice
+                        calls sound is a bit low
+                    </p>
+                    <p class="review_secondary product_fontsize">43 people found this helpful</p>
+                    <span><button
+                            class="rounded border border_secondary rounded-3 product_fontsize py-1 px-2 my-2">Helpful</button>
+                        | <span class="product_fontsize review_secondary">Report</span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  .................. 5th  Raw end ............................ -->
+
+    <!-- Footer -->
+    <footer>
+        <a class="footer1">
+            Back to Top
+        </a>
+
+        <div class="footer2">
+            <div class="footer2Top">
+                <div class="footerColumn">
+                    <div class="footer2link">
+                        <h5 class="footer2Heading">Get to Know Us</h5>
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Careers</a></li>
+                            <li><a href="">Press Releases</a></li>
+                            <li><a href="">Amazon Science</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer2link">
+                        <h5 class="footer2Heading">Connect with Us</h5>
+                        <ul>
+                            <li><a href="">Facebook</a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">Instagram</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footerColumn">
+                    <div class="footer2link">
+                        <h5 class="footer2Heading">Make Money with Us</h5>
+                        <ul>
+                            <li><a href="">Sell on Amazon</a></li>
+                            <li><a href="">Sell under Amazon Accelerator</a></li>
+                            <li><a href="">Protect and Build Your Brand</a></li>
+                            <li><a href="">Amazon Global Selling</a></li>
+                            <li><a href="">Become an Affiliate</a></li>
+                            <li><a href="">Fulfilment by Amazon</a></li>
+                            <li><a href="">Advertise Your Products</a></li>
+                            <li><a href="">Amazon Pay on Merchants</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer2link">
+                        <h5 class="footer2Heading">Let Us Help You</h5>
+                        <ul>
+                            <li><a href="">COVID-19 and Amazon</a></li>
+                            <li><a href="">Your Account</a></li>
+                            <li><a href="">Returns Centre</a></li>
+                            <li><a href="">100% Purchase Protection</a></li>
+                            <li><a href="">Amazon App Download</a></li>
+                            <li><a href="">Help</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer2bottom">
+                <a href="">
+                    <img class="footerLogo" src="image/logo.png">
+                </a>
+                <div class="footerLine">
+                    <div class="footerLlanguage">
+                        <i class="fa fa-globe"></i>
+                        English
+                    </div>
+                    <div class="footerCountry">
+                        <img src="image/india.jpg"></img>
+                        India
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer3">
+            <div class="footer3Top">
+                <div class="footer3column">
+                    <div class="footer3column1">
+                        <div class="footer3Content">
+                            <h5 class="footer3Heading">AbeBooks</h5>
+                            <ul>
+                                <li><a href="">Books, art<BR>& collectibles</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer3Content">
+                            <h5 class="footer3Heading">Shopbop</h5>
+                            <ul>
+                                <li><a href="">Designer<BR>Fashion Brands</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer3column1">
+                        <div class="footer3Content">
+                            <h5 class="footer3Heading">Amazon Web Services</h5>
+                            <ul>
+                                <li><a href="">Scalable Cloud<BR>Computing Services</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer3Content">
+                            <h5 class="footer3Heading">Amazon Business</h5>
+                            <ul>
+                                <li><a href="">Everything For<BR>Your Business</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer3column">
+                    <div class="footer3column1">
+                        <div class="footer3Content">
+                            <h5 class="footer3Heading">Audible</h5>
+                            <ul>
+                                <li><a href="">Download<BR>Audio Books</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer3Content">
+                            <h5 class="footer3Heading">Prime Now</h5>
+                            <ul>
+                                <li><a href="">2-Hour Delivery<BR>on Everyday Items</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer3column1">
+                        <div class="footer3Content">
+                            <h5 class="footer3Heading">IMDb</h5>
+                            <ul>
+                                <li><a href="">Movies, TV<BR>& Celebrities</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer3Content">
+                            <h5 class="footer3Heading">Amazon Prime Music</h5>
+                            <ul>
+                                <li><a href="">100 million songs, ad-free<BR>Over 15 million podcast episodes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer3Bottom">
+                <div class="footer3Condition">
+                    <ul>
+                        <li><a>Conditions of Use & Sale</a></li>
+                        <li><a>Privacy Notice</a></li>
+                        <li><a>Interest-Based Ads</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer3Conpyright">
+                    © 1996-2024, Amazon.com, Inc. or its affiliates
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- ............................ END IMG SECTION ................................. -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+
+    <script>
+
+
+        $(document).ready(function () {
+            $('.computer').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                dots: false,
+                touchDrag: true,
+                mouseDrag: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                    }
+                }
+            })
+        });
+
+
+        $(document).ready(function () {
+            $('.computer12').owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: false
+                    },
+                    768: {
+                        items: 2
+                    },
+                    1024: {
+                        items: 3
+                    },
+                    1440: {
+                        items: 5,
+                        nav: true
+                    }
+
+
+                }
+            })
+        });
+    </script>
+</body>
+
+</html>

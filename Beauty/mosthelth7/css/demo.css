@@ -1,0 +1,450 @@
+/*....... START MAIN PAGE CSS ......... */
+* {
+    font-family: "Amazon Ember", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.owl-carousel .owl-item img {
+    object-fit: contain;
+}
+
+.owl-carousel .owl-nav button.owl-prev {
+    right: 102%;
+    position: absolute;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+    left: 102%;
+    position: absolute;
+}
+
+.owl-carousel .owl-nav button.owl-prev span,
+.owl-carousel .owl-nav button.owl-next span {
+    padding-bottom: 5px;
+}
+
+.owl-carousel .owl-nav button.owl-prev,
+.owl-carousel .owl-nav button.owl-next {
+    font-size: 35px !important;
+    background-color: #a4afaf;
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+    height: 40px;
+    border-radius: 25%;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.owl-carousel .owl-nav button.owl-prev:hover,
+.owl-carousel .owl-nav button.owl-next:hover {
+    background-color: #e5eeee;
+    color: black;
+    transition: 0.3s;
+}
+
+.card_link {
+    font-size: 12.5px;
+    height: 58px;
+    overflow: hidden;
+
+}
+
+.card_link a {
+    color: #007185;
+    text-decoration: none;
+}
+
+.card_link:hover a {
+    text-decoration: underline;
+    color: #c7511f;
+
+}
+
+.card_icon {
+    font-size: 12.5px;
+}
+
+.card_icon a {
+    text-decoration: none;
+}
+
+.card_icon span {
+    color: #FFA41C;
+    text-decoration: none;
+}
+
+.card_icon .rup {
+    color: #C45500;
+}
+
+.text_color {
+    color: #007185 !important;
+}
+
+/*....... END MAIN PAGE CSS ......... */
+
+
+/* ........................SINGLE PAGE CSS ....................... */
+.computer {
+    position: relative;
+}
+
+.computer .owl-nav {
+    position: absolute;
+    top: 45%;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-35px);
+}
+
+.text2 {
+    font-size: 12px;
+    margin-bottom: 3px !important;
+}
+
+.card_icon {
+    font-size: 12.5px;
+}
+
+.card_icon a {
+    text-decoration: none;
+}
+
+.card_icon span {
+    color: #FFA41C;
+    text-decoration: none;
+}
+
+.card_icon .rup {
+    color: #C45500;
+}
+
+.text_color {
+    color: #007185 !important;
+}
+
+.sqare11 {
+    width: 100px;
+    height: 22px;
+    padding-top: 2px;
+    background-color: #3E4650;
+    color: white;
+    text-wrap: nowrap;
+    font-size: 12px;
+}
+
+.span_text {
+    color: #d66915;
+}
+
+.sqare211 {
+    width: 1px;
+    height: 1px;
+    background-color: #3E4650;
+    color: white;
+    border-left: 10px solid transparent;
+    border-bottom: 22px solid;
+}
+
+.smll_text {
+    font-size: 12px;
+    color: gray;
+    margin-bottom: 3px !important;
+}
+
+.text_red {
+    background-color: #CC0C39;
+    color: white;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.off_text {
+    color: #CC0C39;
+}
+
+.mrp_text {
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+
+.taxx_text {
+    font-size: 13px;
+}
+
+.box a {
+    color: #007185;
+    margin-bottom: 0 !important;
+}
+
+.box p {
+    margin-bottom: 0 !important;
+}
+
+.offer_text:hover a {
+    color: #CC0C39;
+}
+
+.icon_sec p {
+    color: #007185;
+    font-size: 12px;
+}
+
+.gm_text {
+    font-size: 13px;
+}
+
+.gm_text1 {
+    margin-bottom: 0;
+}
+
+.price_box:hover .gm_text2 {
+    color: #CC0C39;
+}
+
+.patt_text {
+    font-size: 13px;
+}
+
+.box {
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+    font-size: 13px;
+}
+
+.ul_text {
+    font-size: 13px;
+}
+
+.ul_text li {
+    padding-bottom: 4px;
+}
+
+.ab_text {
+    font-size: 16px;
+}
+
+.full_text {
+    font-size: 13px;
+    padding-left: 20px;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.full_text li {
+    margin-bottom: 5px;
+}
+
+.true_text {
+    font-size: 14px;
+}
+
+/* ........... START CART CODE .......... */
+
+.description {
+    color: #007185;
+    text-decoration: none;
+}
+
+.font12 {
+    font-size: 14px;
+}
+
+.green {
+    color: #007600;
+}
+
+.smalltext {
+    font-size: 13px;
+    color: #6b7280;
+}
+
+.cartbtn {
+    background-color: yellow;
+    border-radius: 15px;
+}
+
+.buynowbtn {
+    background-color: orange;
+    border-radius: 15px;
+}
+
+.Fulfilled {
+    background-color: #3e4650;
+}
+
+/* ........... END CART CODE .......... */
+
+
+.sqare {
+    width: 78px;
+    height: 25px;
+    color: white;
+    padding-top: 4px;
+    background-color: #3E4650;
+    text-wrap: nowrap;
+    font-size: 12px;
+}
+
+.sqare2 {
+    width: 1px;
+    height: 1px;
+    color: white;
+    background-color: #3E4650;
+    border-left: 10px solid transparent;
+    border-bottom: 25px solid;
+
+}
+
+.computer12 .owl-nav {
+    position: absolute;
+    top: 45%;
+    width: 93%;
+}
+
+.computer12.owl-carousel .owl-nav button.owl-prev {
+    right: 98% !important;
+    position: absolute;
+}
+
+.computer12.owl-carousel .owl-nav button.owl-next {
+    right: 96% !important;
+    position: absolute;
+}
+
+.b2 {
+    color: #CC0C39;
+}
+
+.deal_text {
+    font-size: 13px;
+}
+
+.red_box {
+    background-color: #CC0C39;
+}
+
+.red_text {
+    color: #CC0C39;
+}
+
+.full_img img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* ......COSTOMER REVIEW ....... */
+.container {
+    padding: 0px;
+    max-width: 1470px;
+    margin: auto;
+}
+
+.review_product {
+    color: #df9253;
+}
+
+.review_bold {
+    font-weight: 400;
+}
+
+.review_secondary {
+    color: #565959;
+}
+
+.reviews_size {
+    font-size: 12px;
+    color: #565959;
+}
+
+.reviwe_button {
+    border: none;
+    color: rgb(6, 125, 98);
+    background-color: #d5f9d5;
+}
+
+.review_white {
+    border: none;
+}
+
+.review_orange {
+    background-color: #ffeec7;
+    border: none;
+}
+
+.text_redlight {
+    color: #333;
+}
+
+.text_redlight:hover {
+    color: #c74c2d;
+    text-decoration: underline;
+}
+
+.reviews_color1 {
+    color: #007185;
+}
+
+.progress_color {
+    background-color: #FFA41C;
+}
+
+.progress_hight {
+    height: 20px;
+    margin-top: 12px;
+}
+
+.progress_width {
+    width: 180px;
+}
+
+.product1 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+/* Most HOME 2 PAGE  */
+.mosthome2 p {
+    font-size: 13px;
+}
+
+.mosthome3_img {
+    object-fit: cover;
+    text-align: center;
+}
+
+@media only screen and (max-width:1024px) {
+    .head_txt {
+        font-size: 17px;
+    }
+
+    .product_fontsize {
+        font-size: 15px;
+    }
+
+    .cos_say {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    .pr_size {
+        font-size: 13px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 3;
+    }
+}
