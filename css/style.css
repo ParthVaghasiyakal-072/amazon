@@ -506,7 +506,30 @@ display: -webkit-box;
 .d-flex{
   flex-wrap: wrap !important;
 }
-
+.ds_offer{
+   position: absolute;
+   top:0;
+   left:0;
+   padding:4px 10px;
+   background-color: #2162a1;
+   display: inline;
+   color: white;
+   font-size: 12px;
+}
+.ds_discount{
+  position: absolute;
+  top:0;
+  left:0;
+  padding:4px 10px;
+  background-color: #d62c1f;
+  display: inline;
+  color: white;
+  font-size: 12px;
+}
+.ds_description{
+   font-size: 13px;
+   margin-bottom: 5px;
+}
 
 
 
