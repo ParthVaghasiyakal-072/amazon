@@ -78,7 +78,12 @@
 .objectfit{
   max-width: 225px;
   max-height: 160px;
+  transition: 0.5s ease-in-out;
 }
+.product-card:hover .objectfit{
+   scale: 1.1;
+}
+
 .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
   content: '';
 }
@@ -883,6 +888,10 @@ ul {
 .product-card:hover .product-card-img .overlay {
   opacity: 1;
   transform: scaleY(1);
+}
+
+.product-card:hover{
+  box-shadow: -5px 5px 15px 0px rgba(0, 0, 0, 0.06);
 }
 
 .product-card:hover .product-card-img .view-and-favorite-area ul {
