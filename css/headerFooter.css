@@ -71,9 +71,12 @@ nav{
 }
 .navTitle{
     font-size: 0.8vw;
-    font-weight: 700;
+    /* font-weight: 700; */
     color: black;
     margin-bottom: 0px;
+}
+.navTitle:hover {
+    text-decoration: underline;
 }
 .searchBar{
     width: 50vw;
@@ -154,7 +157,7 @@ nav{
     font-size: 25px;
     color: black;
 }
-.logoContainer:hover, .location:hover,.language a:hover, .signIn:hover, .orders:hover, .cart:hover{
+.logoContainer:hover, .location:hover,.language a:hover, .orders:hover{
     border: 1px solid white;
 }
 .subMenu{
@@ -162,10 +165,11 @@ nav{
     flex-wrap: nowrap;
     width:fit-content;
     padding: 8px 0;
-    border: 1px solid rgb(35 47 62);
+    /* border: 1px solid rgb(35 47 62); */
 }
 .subMenu:hover{
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    background-color: rgba(0, 0, 0 , 0.1);
 }
 .responsiveHamburger{
     display: none ;
@@ -186,8 +190,12 @@ nav{
     padding: 0 !important;
 }
 .hamburger .navbar{
-    background-color: #232f3e;
+    /* background-color: #232f3e; */
     padding: 0;
+    color: black;
+    border-top: 1px solid rgba(0, 0, 0 , 0.1);
+    border-bottom: 1px solid  rgba(0, 0, 0 , 0.1);
+    overflow-x: auto;
 }
 .offcanvas-header{
     background-color: #232f3e;
@@ -232,19 +240,22 @@ nav{
     height: 28px;
 }
 .subMenu .navbar-brand{
-    color: white !important;
+    color: black !important;
     font-size: 0.8vw;
 }
 .navBarList li {
-    padding: 11px 0.5vw;
-    border: 1px solid rgb(35 47 62);
+    padding: 11px 15px;
+    /* border: 1px solid rgb(35 47 62); */
+    transition: background-color 0.3s ease-in-out;
 }
 .navBarList li:hover {
-    border: 1px solid white;
+    /* border: 1px solid white; */
+    background-color: rgba(0, 0, 0 , 0.1);
 }
 .navBarList li a{
-    color: white;
-    font-size: 0.8vw;
+    color: black;
+    font-size: 16px;
+    text-wrap: nowrap;
 }
 .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
     flex-wrap: nowrap !important;
@@ -421,6 +432,29 @@ flex-direction: column;
     font-size: 12px;
 }
 
+
+
+/* new header css */
+.sp_location {
+    font-size: 16px;
+    color: #999;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: color 0.3s;
+    border: 1px solid rgba(0, 0, 0 , 0.1);
+    /* height: 40px; */
+    padding: 10px 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0 , 0.1); 
+}
+.sp_location:hover {
+    color: #333;
+    border-color:black ;
+}
+.column2 img {
+    width: 28px;
+    height: 28px;
+}
 @media screen and (max-width:1024px){
     .footerColumn {
         flex-direction: column;
