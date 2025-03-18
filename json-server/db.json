@@ -231,7 +231,7 @@
         "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
         "starrating": 4,
         "price": 1487,
-        "catogery": "kitchen"
+        "catogery": "clothes"
       },
       {
         "id": "2",
@@ -239,7 +239,7 @@
         "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
         "starrating": 3,
         "price": 1287,
-        "catogery": "kitchen"
+        "catogery": "clothes"
       },
       {
         "id": "3",
@@ -247,7 +247,7 @@
         "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
         "starrating": 4,
         "price": 699,
-        "catogery": "kitchen"
+        "catogery": "clothes"
       },
       {
         "id": "4",
@@ -255,7 +255,7 @@
         "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
         "starrating": 5,
         "price": 499,
-        "catogery": "kitchen"
+        "catogery": "clothes"
       },
       {
         "id": "5",
@@ -263,7 +263,7 @@
         "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
         "starrating": 3,
         "price": 499,
-        "catogery": "kitchen"
+        "catogery": "clothes"
       },
       {
         "id": "6",
@@ -271,7 +271,7 @@
         "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
         "starrating": 2,
         "price": 499,
-        "catogery": "kitchen"
+        "catogery": "clothes"
       },
       {
         "id": "7",
@@ -279,7 +279,7 @@
         "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
         "starrating": 4,
         "price": 499,
-        "catogery": "kitchen"
+        "catogery": "clothes"
       },
       {
         "id": "8",
@@ -287,7 +287,7 @@
         "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
         "starrating": 4,
         "price": 499,
-        "catogery": "kitchen"
+        "catogery": "clothes"
       },
       {
         "id": "9",
@@ -295,7 +295,7 @@
         "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
         "starrating": 3,
         "price": 499,
-        "catogery": "kitchen"
+        "catogery": "clothes"
       }
     ],
     "Toysgames": [
@@ -809,6 +809,932 @@
             "discription": "Limited time deal",
             "diliveryDate": "Saturday, April 20"
         }
+    ]
+  }, 
+  "INDEX": {
+    "CarMoterbike" : [
+      {
+        "id": "1",
+        "image": "image/carcleaning.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)ur Car - IONE01-40 g,Car Accessories interior car perfumes and fresheners",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "car"
+      },
+      {
+          "id": "2",
+          "image": "image/cleaner.jpg",
+          "title": "Pidilite WD-40, Multipurpose Spray, Rust Remover, Hinge Lubricant, Stain Remover, Degreaser, and Cleaning Agent, 420ml (341g)",
+          "starrating": 4,
+          "price": 499,
+          "catogery": "car"
+      },
+      {
+          "id": "3",
+          "image": "image/facemask.jpg",
+          "title": "Boldfit Face Mask for Bikers in Riding UV Protected Full Face Mask Balaclava for Men Black Mask for Bike Riding Accessories Cycling Accessories Mask For Men &amp; Women Rider Full Face Helmet Mask for Men",
+          "starrating": 3,
+          "price": 499,
+          "catogery": "car"
+      },
+      {
+          "id": "4",
+          "image": "image/lapm.jpg",
+          "title": "Godrej aer Twist – Car Air Freshener | Car Accessories | Fresh Lush Green (45g)",
+          "starrating": 3,
+          "price": 499,
+          "catogery": "car"
+      },
+      {
+          "id": "5",
+          "image": "image/musk.jpg",
+          "title": "Involve Your Senses One Musk Organic Car Perfume, Involve Your Senses Strong Fiber Air Freshener to Freshen'up Your Car - IONE01-40 g,Car Accessories interior car perfumes and fresheners",
+          "starrating": 3,
+          "price": 499,
+          "catogery": "car"
+      },
+      {
+          "id": "6",
+          "image": "image/shampoo.jpg",
+          "title": "3M Car wash Shampoo (250 ml) | High Foam for Deep Cleaning | Remove Tough Dirt | Safe on Paint | pH Neutral",
+          "starrating": 3,
+          "price": 499,
+          "catogery": "car"
+      },
+      {
+          "id": "7",
+          "image": "image/sox.jpg",
+          "title": "V.E UV Sun Protection Arm Sleeves for Men &amp; Women, UPF 50 Arm Cover for Biking,Cricket,Cycling, Golf, Outdoor Sports",
+          "starrating": 3,
+          "price": 499,
+          "catogery": "car"
+      },
+      {
+          "id": "8",
+          "image": "image/towel.jpg",
+          "title": "SOFTSPUN Microfiber Cloth - 4 pcs - 40x40 cms - 340 GSM Grey! Thick Lint &amp; Streak-Free Multipurpose Cloths - Automotive Microfibre Towels for Car Bike Cleaning Polishing Washing &amp; Detailing.…",
+          "starrating": 3,
+          "price": 499,
+          "catogery": "car"
+      },
+      {
+          "id": "9",
+          "image": "image/brush.jpg",
+          "title": "XY North Car Interior Dust Brush,Auto Detailing Brushes,Soft Bristle Cleaning Brush,Car Detailing Brush Dusting Tool for Air Conditioner Vents, Leather,Leather,Scratch Free",
+          "starrating": 3,
+          "price": 499,
+          "catogery": "car"
+      }
+    ],
+    "ClothingandAccessories": [
+      {
+        "id": "1",
+        "image": "/image/dress.jpg",
+        "title": "ANNI DESIGNER Women Cotton Blend Kurta with Palazzo",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "clothes"
+      },
+      {
+        "id": "2",
+        "image": "/image/dress2.jpg",
+        "title": "ANNI DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With Dupatta",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "clothes"
+      },
+      {
+        "id": "3",
+        "image": "/image/scrurt.jpg",
+        "title": "ALYNE Lycra Saree Shapewear Petticoat for Women, Women's Blended Saree Shapewear",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "clothes"
+      },
+      {
+        "id": "4",
+        "image": "/image/product clothes/greenshirt1.jpg",
+        "title": "Lux Cozi Men's Regular Fit Polo Neck Half Sleeve Solid Casual T-Shirt | Polo T-Shirt for Men",
+        "starrating": 5,
+        "price": 499,
+        "catogery": "clothes"
+      },
+      {
+        "id": "5",
+        "image": "/image/bluetop.jpg",
+        "title": "rytras Women's Floral Printed Cotton Top",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "clothes"
+      },
+      {
+        "id": "6",
+        "image": "/image/tshirt.jpg",
+        "title": "Lux Cozi Men's Regular Fit Polo Neck Half Sleeve Solid Casual T-Shirt | Polo T-Shirt for Men",
+        "starrating": 2,
+        "price": 499,
+        "catogery": "clothes"
+      },
+      {
+        "id": "7",
+        "image": "/image/nightsuit.jpg",
+        "title": "KSHS Women's Cotton Printed Night Suit Set of Top &amp; Shorts",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "clothes"
+      },
+      {
+        "id": "8",
+        "image": "/image/trouer.jpg",
+        "title": "Allen Solly Men's Regular Fit Polo",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "clothes"
+      },
+      {
+        "id": "9",
+        "image": "/image/payjamas.jpg",
+        "title": "BLINKIN Women Cotton Casual Style Pyjamas Combo Pack Of 2 With Side Pockets",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "clothes"
+      }
+    ],
+    "BabyProducts": [
+      {
+        "id": "1",
+        "image": "/image/baby1.jpg",
+        "title": "Little's Baby Pants Diapers,Large (L), 9-14 kg, 60 Count, with Wetness Indicator and 12 Hours Absorption",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "babyproducts"
+      },
+      {
+        "id": "2",
+        "image": "/image/baby2.jpg",
+        "title": "MamyPoko Pants Extra Absorb Baby Diapers, Medium (M), 74 Count, 7-12kg",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "babyproducts"
+      },
+      {
+        "id": "3",
+        "image": "/image/baby3.jpg",
+        "title": "Huggies Complete Comfort Wonder Pants Extra Large (XL) Size (12-17 Kgs) Baby Diaper Pants, 56 count| India's Fastest Absorbing Diaper with upto 4x faster absorption | Unique Dry Xpert Channel",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "babyproducts"
+      },
+      {
+        "id": "4",
+        "image": "/image/baby4.jpg",
+        "title": "MamyPoko Pants Standard Baby Diapers, Large (L), 46 Count, 9-14kg",
+        "starrating": 5,
+        "price": 499,
+        "catogery": "babyproducts"
+      },
+      {
+        "id": "5",
+        "image": "/image/baby5.jpg",
+        "title": "Pampers Premium Care Pants Style Baby Diapers, Large (L) Size, 88 Count, All-in-1 Diapers with 360 Cottony Softness, 9-14kg Diapers",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "babyproducts"
+      },
+      {
+        "id": "6",
+        "image": "/image/baby6.jpg",
+        "title": "Pampers Premium Care Pants Style Baby Diapers, Large (L) Size, 88 Count, All-in-1 Diapers with 360 Cottony Softness, 9-14kg Diapers",
+        "starrating": 2,
+        "price": 499,
+        "catogery": "babyproducts"
+      },
+      {
+        "id": "7",
+        "image": "/image/baby7.jpg",
+        "title": "Mee Mee Caring Baby Wet Wipes with lid, 72 Pcs (Aloe Vera, Pack of 3)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "babyproducts"
+      },
+      {
+        "id": "8",
+        "image": "/image/baby8.jpg",
+        "title": "Supples Premium Diapers, X-Large (XL), 54 Count, 12-17 Kg, 12 hrs Absorption Baby Diaper Pants",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "babyproducts"
+      },
+      {
+        "id": "9",
+        "image": "/image/baby9.jpg",
+        "title": "Little's Baby Pants Diapers,Large (L), 9-14 kg, 60 Count, with Wetness Indicator and 12 Hours Absorption",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "babyproducts"
+      }
+    ],
+    "Toysgames1": [
+      {
+        "id": "1",
+        "image": "/image/toy & games/toy1.jpg",
+        "title": "Amazon Brand - Jam &amp; Honey Penguin, Plush/Soft Toy for Boys, Girls and Kids, Super-Soft, Safe, Great Birthday Gift (Black and White, 17 cm)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "toys"
+      },
+      {
+        "id": "2",
+        "image": "/image/toy2.jpg",
+        "title": "Wembley RC Car Rechargeable Remote Control Car for Kids Mini 1:24 Scale High Speed Racing Car - Black                                                ",
+        "starrating": 3,
+        "price": 1287,
+        "catogery": "toys"
+      },
+      {
+        "id": "3",
+        "image": "/image/toy3.jpg",
+        "title": "Storio Toys Dancing Cactus Talking Toy, Cactus Plush Toy, Wriggle &amp; Singing Recording Repeat What You Say Funny Education Toys for Babies Children Playing, Home Decorate",
+        "starrating": 4,
+        "price": 699,
+        "catogery": "toys"
+      },
+      {
+        "id": "4",
+        "image": "/image/toy4.jpg",
+        "title": "Einstein Box Ultimate Science Kit for Boys and Girls Ages 6-8-10-12-14 Years| Birthday Gifts Ideas for Kids| STEM Learning Toys for 6,7,8,9,10,11,12,13,14 Year Olds|",
+        "starrating": 5,
+        "price": 499,
+        "catogery": "toys"
+      },
+      {
+        "id": "5",
+        "image": "/image/toy7.jpg",
+        "title": "Intex Inflatable Kids Bath Tub, 3 Ft (Multicolor)",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "toys"
+      },
+      {
+        "id": "6",
+        "image": "/image/toy5.jpg",
+        "title": "Mirana C-Type USB Rechargeable Battery Powered Hover Football Indoor Floating Hoverball Soccer | Air Football Smart | Original Made in India Fun Toy for Boys and Kids (Red)",
+        "starrating": 2,
+        "price": 499,
+        "catogery": "toys"
+      },
+      {
+        "id": "7",
+        "image": "/image/toy6.jpg",
+        "title": "LuvLap Sunny Ride on &amp; Car for Kids with Music &amp; Horn Steering, Push Car for Baby with Backrest, Safety Guard, Under Seat Storage &amp; Big Wheels, Ride on for Kids 1 to 3 Years Upto 25 Kgs (Yellow)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "toys"
+      },
+      {
+        "id": "8",
+        "image": "/image/toy8.jpg",
+        "title": "Storio Toy Octopus Plushie Reversible Soft Toys for Kids | Plush Soft Toys for Baby Boys and Girls | Octopus Soft Toy for Kids -18cm",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "toys"
+      },
+      {
+        "id": "9",
+        "image": "/image/toy9.jpg",
+        "title": "Little's Plastic Junior Ring (Multicolour) (6 pieces)",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "toys"
+      }
+    ],
+    "ComputersAccessories": [
+      {
+        "id":"1",
+        "image": "/image/ASS1 (51).jpg",
+        "title": "(Refurbished) realme Buds Wireless Bluetooth In Ear Neckband Headphone with Mic (Yellow)",
+        "starrating" : 3,
+        "price": 499,
+        "catogery" : "computers"
+      },
+      {
+        "id":"2",
+        "image": "/image/ASS1 (52).jpg",
+        "title": "(Refurbished) OnePlus 6T (Mirror Black, 8GB RAM, 128GB Storage)",
+        "starrating" : 3,
+        "price": 499,
+        "catogery" : "computers"
+      },
+      {
+        "id":"3",
+        "image": "/image/ASS1 (53).jpg",
+        "title": "ShineXPro Microfiber Car Cleaning (Renewed) MI Smart Band 4 , Black",
+        "starrating" : 4,
+        "price": 499,
+        "catogery" : "computers"
+      },
+      {
+        "id":"4",
+        "image": "/image/ASS1 (54).jpg",
+        "title": "(Renewed) Mi Band 3 - Black",
+        "starrating" : 3,
+        "price": 499,
+        "catogery" : "computers"
+      },
+      {
+        "id":"5",
+        "image": "/image/ASS1 (55).jpg",
+        "title": "(Renewed) JBL T205BT Pure Bass Wireless Metal Earbud Headphones with Mic (Blue)",
+        "starrating" : 5,
+        "price": 499,
+        "catogery" : "computers"
+      },
+      {
+        "id":"6",
+        "image": "/image/ASS1 (56).jpg",
+        "title": " (Renewed) OnePlus 6 (Mirror Black, 6GB RAM, 64GB Storage)",
+        "starrating" : 3,
+        "price": 499,
+        "catogery" : "computers"
+      },
+      {
+        "id":"7",
+        "image": "/image/ASS1 (57).jpg",
+        "title": "(Refurbished) pTron Bassbuds Jets True Wireless Bluetooth 5.0 Headphone, 20Hrs Total Playback with Case, Deep Bass, Touch Control, IPX4 Water Resistant, Voice Assistant, Builtin Mic &amp; Digital Display (Black &amp; Blue)",
+        "starrating" : 2,
+        "price": 499,
+        "catogery" : "computers"
+      },
+      {
+        "id":"8",
+        "image": "/image/ASS1 (58).jpg",
+        "title": "(Refurbished) Sony Wi-C200 Bluetooth Wireless In Ear Earphones With Mic (White)",
+        "starrating" : 3,
+        "price": 499,
+        "catogery" : "computers"
+      },
+      {
+        "id":"9",
+        "image": "/image/ASS1 (59).jpg",
+        "title": "SOFTSPUN Microfiber Cloth - 4 pcs - 40x40 cms - 340 GSM Grey! Thick Lint & Streak-Free Multipurpose Cloths - Automotive Microfibre",
+        "starrating" : 4,
+        "price": 499,
+        "catogery" : "computers"
+      }
+    ],
+    "Beauty": [
+      {
+        "id": "1",
+        "image": "/image/ASS1 1.jpg",
+        "title": " MI Xiaomi Beard Trimmer for Men 2C With High Precision Trimming | 2 Beard Comb | USB Type-C | Fast Charging | 0.5mm Precision | 40 Length Settings | 90 Min Run Time, Black",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "beauty"
+      },
+      {
+        "id": "2",
+        "image": "/image/ASS1 2.jpg",
+        "title": "Dettol Alcohol based Hand Sanitizer, Original, 50ml, Pack of 4",
+        "starrating": 3,
+        "price": 1287,
+        "catogery": "beauty"
+      },
+      {
+        "id": "3",
+        "image": "/image/ASS1 3.jpg",
+        "title": " Dettol Multi-Surface Disinfectant Sanitizer Spray Bottle | 24 hours Antibacterial protection| Germ Kill on Hard and Soft Surfaces (Spring Blossom, 225ml)",
+        "starrating": 4,
+        "price": 699,
+        "catogery": "beauty"
+      },
+      {
+        "id": "4",
+        "image": "/image/slide3.jpg",
+        "title": " Kawax Portable eyebrow trimmer for women, epilator for women, facial hair remover for women,Face, Lips, Nose Hair Removal Electric Trimmer with Light(D2)",
+        "starrating": 5,
+        "price": 499,
+        "catogery": "beauty"
+      },
+      {
+        "id": "5",
+        "image": "/image/ASS1 5.jpg",
+        "title": " Miserwe Women's Painless Hair Remover Facial Hair Removal Painless Hair Trimmer Shaver Waterproof for Facial Bikini area Body Hair, Gold",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "beauty"
+      },
+      {
+        "id": "6",
+        "image": "/image/ASS1 6.jpg",
+        "title": "Hair Remover For Women Skincare Lipstick Shape Mini Epilator trimmer Machine for face, Upper Lip, Chin, Eyebrow, etc. with Battery(Golden White)",
+        "starrating": 2,
+        "price": 499,
+        "catogery": "beauty"
+      },
+      {
+        "id": "7",
+        "image": "/image/ASS1 7.jpg",
+        "title": "Himalaya Pure Hands | Hand Sanitizer - 500 ml (Lemon) (Packaging may vary)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "beauty"
+      },
+      {
+        "id": "8",
+        "image": "/image/ASS1 8.jpg",
+        "title": "Ambi Pur Air Freshener - Sweet Berries - 275 g Spray",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "beauty"
+      },
+      {
+        "id": "9",
+        "image": "/image/ASS1 9.jpg",
+        "title": "Dr Physio Electric Full Body Massager for Pain Relief of Back, Leg &amp; Foot, White",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "beauty"
+      }
+    ],
+    "InspiredbyHistory1": [
+        {
+            "id": "1",
+            "image": "/image/product car/carshampoo1.jpg",
+            "title": "3M Car wash Shampoo (250 ml) | High Foam for Deep Cleaning | Remove Tough Dirt | Safe on Paint | pH Neutral",
+            "starrating": 4,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "Best Seller",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": " Window Cleaners for Window Washing Installations",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "2",
+            "image": "/image/product clothes/greendress1.jpg",
+            "title": "ANNI DESIGNER Women Cotton Blend Kurta with Palazzo",
+            "starrating": 4,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "3",
+            "image": "/image/product clothes/greenshirt1.jpg",
+            "title": "Lux Cozi Men's Regular Fit Polo Neck Half Sleeve Solid Casual T-Shirt | Polo T-Shirt for Men",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "4",
+            "image": "/image/product car/cwspeight1.jpg",
+            "title": "Wavex Snow Foam Concentrate Car Shampoo 500ml",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "Best Seller",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Window Cleaners for Window Washing Installations",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "5",
+            "image": "/image/product car/cwsptwo1.jpg",
+            "title": "Waxpol Ecosaver Car Shampoo Concentrate - 5 LTR. (For Bucket, Foam &amp; Snow Foam Wash) Thick Foam With Shine Enhancing Formula",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "Best Seller",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Window Cleaners for Window Washing Installations",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "6",
+            "image": "/image/product car/cwspthree1.jpg",
+            "title": "Wavex Waterless Car Wash Kit Car Cleaning Spray 100x Concentrate | 100 TIMES DILUTABLE with Empty Spray Bottle Microfiber Cleaning Cloth | Car Washing Without Water",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : "5% off"
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Limited time deal",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "7",
+            "image": "/image/product car/cwspfive1.jpg",
+            "title": "TOPGUN Car Wash Shampoo 250 ml, Easily Removes Tough Stains, pH Neutral Formulation",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "8",
+            "image": "/image/product clothes/trouser1.jpg",
+            "title": "Allen Solly Men's Regular Fit Polo",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "Best Seller",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "Window Cleaners for Window Washing Installations",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "9",
+            "image": "image/brush.jpg",
+            "title": "Allen Solly Men's Regular Fit Polo",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+            "id": "10",
+            "image": "/image/product car/handsox1.jpg",
+            "title": "V.E UV Sun Protection Arm Sleeves for Men & Women, UPF 50 Arm Cover for Biking,Cricket,Cycling, Golf, Outdoor Sports",
+            "starrating": 3,
+            "price": 499,
+            "actualPrice": 600,
+            "type" : {
+                "seller": "",
+                "discount" : ""
+            },
+            "catogery": "inspiredhistory",
+            "discription": "",
+            "diliveryDate": "Saturday, April 20"
+        },
+        {
+          "id": "11",
+          "image": "/image/product car/cwspthree1.jpg",
+          "title": "Wavex Waterless Car Wash Kit Car Cleaning Spray 100x Concentrate | 100 TIMES DILUTABLE with Empty Spray Bottle Microfiber Cleaning Cloth | Car Washing Without Water",
+          "starrating": 3,
+          "price": 499,
+          "actualPrice": 600,
+          "type" : {
+              "seller": "",
+              "discount" : "5% off"
+          },
+          "catogery": "inspiredhistory",
+          "discription": "Limited time deal",
+          "diliveryDate": "Saturday, April 20"
+        },
+        {
+          "id": "12",
+          "image": "/image/product car/cwspfive1.jpg",
+          "title": "TOPGUN Car Wash Shampoo 250 ml, Easily Removes Tough Stains, pH Neutral Formulation",
+          "starrating": 3,
+          "price": 499,
+          "actualPrice": 600,
+          "type" : {
+              "seller": "",
+              "discount" : ""
+          },
+          "catogery": "inspiredhistory",
+          "discription": "",
+          "diliveryDate": "Saturday, April 20"
+        }
+    ]
+  },
+  "INDEX3": {
+    "OfficeProducts": [
+      {
+        "id": "1",
+        "image": "/image/pen1.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 4,
+        "price": 1487,
+        "catogery": "office"
+      },
+      {
+        "id": "2",
+        "image": "/image/pen2.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 3,
+        "price": 1287,
+        "catogery": "office"
+      },
+      {
+        "id": "3",
+        "image": "/image/pen3.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 699,
+        "catogery": "office"
+      },
+      {
+        "id": "4",
+        "image": "/image/pen4.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 5,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "5",
+        "image": "/image/pen5.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "6",
+        "image": "/image/pen6.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 2,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "7",
+        "image": "/image/pen7.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "8",
+        "image": "/image/pen4.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "9",
+        "image": "/image/pen2.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "office"
+      }
+    ],
+    "AmazonRenewed": [
+      {
+        "id": "1",
+        "image": "/image/alexa1.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 4,
+        "price": 1487,
+        "catogery": "office"
+      },
+      {
+        "id": "2",
+        "image": "/image/alexa2.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 3,
+        "price": 1287,
+        "catogery": "office"
+      },
+      {
+        "id": "3",
+        "image": "/image/alexa3.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 699,
+        "catogery": "office"
+      },
+      {
+        "id": "4",
+        "image": "/image/alexa4.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 5,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "5",
+        "image": "/image/alexa1.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "6",
+        "image": "/image/alexa5.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 2,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "7",
+        "image": "/image/alexa6.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "8",
+        "image": "/image/alexa7.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "office"
+      },
+      {
+        "id": "9",
+        "image": "/image/alexa3.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "office"
+      }
+    ],
+    "MusicalInstruments": [
+      {
+        "id": "1",
+        "image": "/image/mic1.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 4,
+        "price": 1487,
+        "catogery": "music"
+      },
+      {
+        "id": "2",
+        "image": "/image/mic2.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 3,
+        "price": 1287,
+        "catogery": "music"
+      },
+      {
+        "id": "3",
+        "image": "/image/mic3.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 699,
+        "catogery": "music"
+      },
+      {
+        "id": "4",
+        "image": "/image/mic4.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 5,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "5",
+        "image": "/image/mic1.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "6",
+        "image": "/image/mic4.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 2,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "7",
+        "image": "/image/mic5.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "8",
+        "image": "/image/mic6.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "9",
+        "image": "/image/mic7.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "music"
+      }
+    ],
+    "GiftedInBeauty": [
+      {
+        "id": "1",
+        "image": "/image/mic1.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 4,
+        "price": 1487,
+        "catogery": "music"
+      },
+      {
+        "id": "2",
+        "image": "/image/mic2.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 3,
+        "price": 1287,
+        "catogery": "music"
+      },
+      {
+        "id": "3",
+        "image": "/image/mic3.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 699,
+        "catogery": "music"
+      },
+      {
+        "id": "4",
+        "image": "/image/mic4.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 5,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "5",
+        "image": "/image/mic1.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "6",
+        "image": "/image/mic4.jpg",
+        "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
+        "starrating": 2,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "7",
+        "image": "/image/mic5.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "8",
+        "image": "/image/mic6.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 4,
+        "price": 499,
+        "catogery": "music"
+      },
+      {
+        "id": "9",
+        "image": "/image/mic7.jpg",
+        "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
+        "starrating": 3,
+        "price": 499,
+        "catogery": "music"
+      }
     ]
   }
 }
