@@ -241,7 +241,7 @@ nav{
 }
 .subMenu .navbar-brand{
     color: black !important;
-    font-size: 0.8vw;
+    font-size: 18px;
 }
 .navBarList li {
     padding: 11px 15px;
@@ -454,6 +454,98 @@ flex-direction: column;
 .column2 img {
     width: 28px;
     height: 28px;
+}
+.srch_cat {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 220px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0,0.1);
+    border-radius: 5px !important;
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0,0.1);
+    z-index: 2;
+    padding: 15px;
+    display: none;
+}
+.srch_cat .s_input{
+    border: 1px solid #BCE3C9;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px !important;
+}
+.sp_searchDropdown:hover .srch_cat{
+    display: block;
+}
+.srch_cat  .s_option {
+    max-height: 200px; /* Adjust as needed */
+    overflow-y: auto; /* Enables vertical scrolling if necessary */
+    padding-top: 10px;
+    margin: 0;
+    list-style: none;
+}
+
+.srch_cat  .s_option li a{
+    text-decoration: none !important;
+    color: grey;
+    padding: 6px 10px;
+    display: block;
+}
+.srch_cat  .s_option a:hover{
+    text-decoration: none !important;
+    background-color: rgba(0, 0, 0 , 0.1);
+    color: black;
+}
+.srch_cat  .s_option a:hover::after {
+    display: none;
+}
+
+ .sp_allcat {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 450px;
+    padding: 20px;
+    /* height: 400px; */
+    background-color: white;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    z-index: 11;
+    border: 1px solid #BCE3C9;
+    border-radius: 10px;
+
+}
+.sp_allcat .sp_allcatinner {
+    width: calc(50% - 10px);
+    height: 50px !important;
+    max-height: 50px;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+}
+.sp_allcat .sp_allcatinner p{
+    margin-bottom: 10px;
+    padding: 10px;
+    color:black;
+    border: 1px solid #F2F3F4;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: white;
+    transition: background-color 0.8s;
+}
+.sp_allcat .sp_allcatinner:hover p {
+    border-color:  #29A56C;
+    color:  #29A56C;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.sp_show_op i{
+    border: 1px solid #29A56C;
+    padding: 4px;
+    border-radius: 50%;
+    color: #29A56C;
+    margin-right: 10px;
 }
 @media screen and (max-width:1024px){
     .footerColumn {
