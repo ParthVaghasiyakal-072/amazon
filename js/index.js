@@ -20,7 +20,7 @@ async function carMotorbikeGetData() {
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
+                        <a href="singleproduct.html?id=${element?.id}&array=CarMoterbike&object=INDEX"">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
                         </a>
@@ -592,7 +592,7 @@ async function  viewCustomerGetData() {
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <a href="singleproduct.html?id=${element?.id}&array=InspiredbyHistory1" class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
                             </a>
                         </h6>
