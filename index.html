@@ -236,15 +236,17 @@
     </nav> -->
 
     <nav class="">
-        <section class=" d-flex align-items-center justify-content-between px-5 py-4">
-            <div class="sp_logo">
+        <section class=" d-flex align-items-center justify-content-between px-lg-5 px-3 py-4">
+            <div class="sp_logo order-md-1 order-1">
                 <img src="./image/logo.svg">
             </div>
-            <div class="searchBar">
+            <div class="searchBar order-md-2 order-3">
                 <div class="input-group sp_searchDropdown se h-100">
                     <div class="d-flex searchDropdown justify-content-between">
-                        <input type="text" class="w-75 flex-fill text-dark fs-6 text-center" style="font-weight: 600;" value="All category" readonly >
-                        <i class="fa-solid fa-angle-down text-dark w-25 d-flex justify-content-center align-items-center"></i>
+                        <input type="text" class="w-75 flex-fill text-dark fs-6 text-center" style="font-weight: 600;"
+                            value="All category" readonly>
+                        <i
+                            class="fa-solid fa-angle-down text-dark w-25 d-flex justify-content-center align-items-center"></i>
                     </div>
                     <div class="srch_cat">
                         <input type="text" class="s_input">
@@ -316,27 +318,130 @@
                             class="fa fa-search seachIcon"></i></button>
                 </div>
             </div>
-            <div class="column2 align-items-center">
-                <a class="sp_location d-flex justify-content-between align-items-center">
+            <div class="column2 align-items-center order-md-3 order-2">
+                <a class="   sp_location sp_location1 d-flex justify-content-between align-items-center">
                     <i class="fa fa-map-marker-alt me-3 align-self-center"></i>
                     <span class="locationName">India</span>
                 </a>
-                <a href="" class="signIn">
-                    <p class="navPreTitle">Hello, sign in</p>
-                    <p class="navTitle">Account & Lists</p>
+                <a href="" class="d-md-flex d-none sp_location sp_signup py-0">
+                    <i class="fa-regular fa-user  align-self-center"></i>
                 </a>
-                <a class="cart">
+                <a class="  d-md-flex d-none sp_signup sp_location cart">
                     <span class="cartNumber">0</span>
                     <img src="/image/carticon.png"></img>
-                    <p class="navTitle">Cart</p>
+                    <!-- <p class="navTitle">Cart</p> -->
+                </a>
+                <a href="" class=" d-md-none sp_location sp_signup py-0 " data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars  align-self-center"></i>
                 </a>
             </div>
         </section>
+        <!-- responsive menu offcanvas -->
+        <div class="sp_offcanvas offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <img src="./image/logo.svg">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="mb-5">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <h5 class="subMenuHeading">Trending</h5>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Best Sellers<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">New Releases<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Movers and Shakers<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <hr>
+                        <h5 class="subMenuHeading">Digital Content and Devices</h5>
+                        <li class="nav-item"><a class="nav-link" href="#">Amazon Launchpad<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Amazon Renewed<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Apps for Android<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Baby Products<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Bags, Wallets and Luggage<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Beauty<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Books<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Car & Motorbike<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Clothing & Accessories<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Computers &Accessories<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Electronics<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Garden & Outdoors<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Gift Cards<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Grocery & Gourmet Foods<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Health & Personal Care<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Home & Kitchen<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Home Improvement<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Industrial & Scientific<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Jewellery<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Kindle Store<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Movies & TV Shows<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Music<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Musical Instruments<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Office Products<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pet Supplies<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shoes & Handbags<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Software<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sports, Fitness & Outdoors<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Toys & Games<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Video Games<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Watches<i class="fa fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column2 sp_column align-items-center order-md-3 order-2 bg-white">
+                    <a class=" sp_signu  sp_location  d-flex justify-content-between align-items-center">
+                        <i class="fa fa-map-marker-alt align-self-center"></i>
+                    </a>
+                    <a href="" class="sp_location sp_signup py-0">
+                        <i class="fa-regular fa-user  align-self-center"></i>
+                    </a>
+                    <a class="sp_signup sp_location cart">
+                        <span class="cartNumber">0</span>
+                        <img src="/image/carticon.png"></img>
+                        <!-- <p class="navTitle">Cart</p> -->
+                    </a>
+
+                </div>
+            </div>
+        </div>
         <section>
             <div class="navBottom">
                 <div class="hamburger position-relative">
                     <nav class="navbar">
-                        <div class="container-fluid">
+                        <div class="container-fluid px-0 position-relative">
                             <!-- <div class="subMenu">
                                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                                     data-bs-target="#offcanvasNavbarNavbar" aria-controls="offcanvasNavbarNavbar"
@@ -391,13 +496,8 @@
                                     </ul>
                                 </div>
                             </div> -->
-                            <div class="subMenu sp_submenu">
-                                <div class="navbar-toggler px-3" onclick="showallcat()">
-                                    <i class="fa-solid fa-bars align-self-center px-3"></i>
-                                    <a class="navbar-brand" href="#">All</a>
-                                </div>
-                            </div>
-                            <ul class="navBarList">
+
+                            <ul class="navBarList ms-3">
                                 <li><a href="">Sell</a></li>
                                 <li><a href="">Best Sellers</a></li>
                                 <li><a href="">Mobiles</a></li>
@@ -413,7 +513,17 @@
                             </ul>
                         </div>
                     </nav>
-                    <div class="sp_allcat d-none d-flex justify-content-between align-items-center flex-wrap" id="sp_allcat">
+                    <div class="subMenu">
+                        <div class="sp_submenu">
+                            <div class="navbar-toggler px-3" onclick="showallcat()">
+                                <i class="fa-solid fa-bars align-self-center px-3"></i>
+                                <a class="navbar-brand" href="#">All</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sp_allcat d-none d-flex justify-content-between align-items-center flex-wrap"
+                        id="sp_allcat">
                         <div class="sp_allcatinner">
                             <p>Sell</p>
                         </div>
@@ -450,14 +560,19 @@
                         <div class="sp_allcatinner">
                             <p>Toys & Games</p>
                         </div>
-                        <p class="text-dark text-center flex-fill sp_show_op" onclick="showmorecat()"><i class="fa-solid fa-plus" ></i><span class="ms-1">Show more...</span></p>
+                        <p class="text-dark text-center flex-fill sp_show_op" id="showmore"
+                            onclick="showmorecat('showmore')"><i class="fa-solid fa-plus"></i><span class="ms-1">Show
+                                more...</span></p>
+                        <p class="text-dark text-center flex-fill sp_show_op d-none" id="showless"
+                            onclick="showmorecat('showless')"><i class="fa-solid fa-plus"></i><span class="ms-1">Show
+                                less...</span></p>
                     </div>
                 </div>
             </div>
         </section>
     </nav>
 
-    <div class="section mx-auto">
+    <div class="section mx-auto d-none d-md-flex">
         <ul class="d-flex flex-wrap m-0">
             <li class="p-2 font-size-sm"><a href="#" class="text-black">BestSellers</a></li>
             <li class="p-2 font-size-sm"><a href="index2.html" class="text-black">Hot New Releases</a></li>
@@ -468,12 +583,12 @@
     </div>
 
     <div class="container1 Bestseller">
-        <div class="my-3 px-2">
+        <!-- <div class="my-3 px-2">
             <h1 class="mb-0 fs-2">Amazon Bestsellers</h1>
             <p class="smalltext">Our most popular products based on sales. Updated frequently.</p>
-        </div>
+        </div> -->
 
-        <div class="products">
+        <div class="products d-none d-md-block">
             <div class="d-flex">
 
                 <div class="col-lg-2 col-md-3 col-sm-4 border-end px-4">
@@ -692,10 +807,9 @@
                 </div>
 
             </div>
-
         </div>
     </div>
-    </div>
+    
 
     <div class="sectionlast p-4 my-4 border border-black border-top-1 position-relative">
 
@@ -707,9 +821,9 @@
             <div class="swiper-wrapper" id="ds_BrowseHistory">
                 
 
-            </div>
-            <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i> </div>
-            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i> </div>
+            <!-- </div> -->
+            <!-- <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i> </div>
+            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i> </div> -->
         </div>
     </div>
 
@@ -958,22 +1072,46 @@
         //         },
         //     });
         // });
-      
+
     </script>
 
-<!-- my js -->
- <script>
-    function showallcat(){
-        var x = document.getElementById("sp_allcat");
-        x.classList.toggle("d-none")
-    }
-    function showmorecat(){
-        var x = document.getElementsByClassName("s_hide_cat");
-        for (var i = 0; i < x.length; i++) {
-            x[i].classList.toggle("d-none");
+    <!-- my js -->
+    <script>
+        function showallcat() {
+            var x = document.getElementById("sp_allcat");
+            x.classList.toggle("d-none");
+
+            // Add event listener to detect clicks outside
+            if (!x.classList.contains("d-none")) {
+                document.addEventListener("click", hideOnClickOutside);
+            } else {
+                document.removeEventListener("click", hideOnClickOutside);
+            }
         }
-    }
- </script>
+
+        function hideOnClickOutside(event) {
+            var x = document.getElementById("sp_allcat");
+            var menuToggle = document.querySelector(".subMenu"); // The menu toggle button
+
+            // Check if the clicked target is NOT inside `sp_allcat` or the menu toggle
+            if (!x.contains(event.target) && !menuToggle.contains(event.target)) {
+                x.classList.add("d-none");
+                document.removeEventListener("click", hideOnClickOutside);
+            }
+        }
+
+        function showmorecat() {
+            var x = document.getElementsByClassName("s_hide_cat");
+            for (var i = 0; i < x.length; i++) {
+                x[i].classList.toggle("d-none");
+            }
+            var y = document.getElementsByClassName("sp_show_op");
+            for (var i = 0; i < y.length; i++) {
+                y[i].classList.toggle("d-none");
+            }
+        }
+
+    </script>
 </body>
 
-</html>
+</html

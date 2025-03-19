@@ -79,7 +79,7 @@ nav{
     text-decoration: underline;
 }
 .searchBar{
-    width: 50vw;
+    width: 48vw;
     height: 50px;
     border: 2px solid #BCE3C9;
     border-radius: 4px;
@@ -160,17 +160,7 @@ nav{
 .logoContainer:hover, .location:hover,.language a:hover, .orders:hover{
     border: 1px solid white;
 }
-.subMenu{
-    display: flex;
-    flex-wrap: nowrap;
-    width:fit-content;
-    padding: 8px 0;
-    /* border: 1px solid rgb(35 47 62); */
-}
-.subMenu:hover{
-    /* border: 1px solid white; */
-    background-color: rgba(0, 0, 0 , 0.1);
-}
+
 .responsiveHamburger{
     display: none ;
 }
@@ -197,36 +187,37 @@ nav{
     border-bottom: 1px solid  rgba(0, 0, 0 , 0.1);
     overflow-x: auto;
 }
-.offcanvas-header{
-    background-color: #232f3e;
+.sp_offcanvas .offcanvas-header{
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0 , 0.1);
 }
-.offcanvas-title{
+.sp_offcanvas .offcanvas-title{
     color: white;
 }
-.offcanvas-header .btn-close{
+.sp_offcanvas .offcanvas-header .btn-close{
     background-color: white;
 }
-.offcanvas-header i{
+.sp_offcanvas .offcanvas-header i{
     background-color: white;
     padding: 2px 5px;
     margin-right: 8px;
     font-size: 22px;
     border-radius: 50%;
 }
-.offcanvas-body .nav-link{
+.sp_offcanvas .offcanvas-body .nav-link{
     color: #303030;
     font-size: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.offcanvas-body .nav-item{
+.sp_offcanvas .offcanvas-body .nav-item{
     padding: 0 10px;
 }
-.offcanvas-body .nav-item:hover{
+.sp_offcanvas .offcanvas-body .nav-item:hover{
     background-color: #eaeded;
 }
-.offcanvas-title{
+.sp_offcanvas .offcanvas-title{
     font-weight: 700;
 }
 .subMenuHeading{
@@ -240,7 +231,7 @@ nav{
     height: 28px;
 }
 .subMenu .navbar-brand{
-    color: black !important;
+    color: white !important;
     font-size: 18px;
 }
 .navBarList li {
@@ -277,21 +268,89 @@ nav{
         width: 29vw;
     }
     .searchBar {
-        width: 47vw;
+        width: 43vw;
     }
     .navTop2{
         width: 23vw;
     }
+    .sp_location1 {
+        display: none !important;
+    }
 }
 @media screen and (max-width:768px) {
     .searchBar, .navTop2,.navBottom,.location{
-        display: none;
+        /* display: none; */
     }
     .responsiveHamburger{
         display: flex;
     }
     .responsiveHamburger .subMenu{
         border: none;
+    }
+    /* .sp_logo {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20px;
+    } */
+    /* .searchBar{
+        width: 70vw;
+        flex: fill;
+    } */
+ 
+    .sp_location {
+        margin-right: 2px !important;
+    }
+    .searchDropdown {
+        width: 100px;
+    }
+    .searchDropdown input 
+    {
+        padding: 10px;
+    }
+    .sp_logo img{
+        margin:10px auto;
+    }
+    .sp_column  {
+        width: 100%;
+        height: auto;
+      }
+      .sp_column {
+        border-top:1px solid rgba(0, 0, 0 , 0.1) ;
+        position: absolute;
+        bottom: 0px;
+        padding: 10px;
+        left: 0px;
+      }
+}
+@media (max-width: 767px) {
+       .searchBar{
+        width: 100vw;
+        flex: fill;
+        margin-top: 10px;
+    }
+    .sp_allcat {
+        max-width: 300px !important;
+        width: 80% !important;
+        flex-wrap: wrap;
+    }
+    .sp_allcat .sp_allcatinner  {
+        width: 100% !important;
+    }
+}
+@media (max-width:374px){
+    .sp_logo img{
+        margin:0px auto;
+        width: 100%;
+        padding-bottom: 0px;
+    }
+        .sp_logo {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+    .column2{
+        margin-left: auto;
     }
 }
 
@@ -300,15 +359,17 @@ nav{
 .footer1{
     text-align: center;
     padding: 10px;
-    background-color: #37475a;
+    background-color: #29A56C;
     color: white;
     display: block;
 }
 .footer1:hover{
-    background-color: #485769;
+    background-color: #29A56C;
+    color: white;
+
 }
 .footer2{
-    background-color: #232f3e;
+    background-color:white;
 }
 .footer2Top{
     display: flex;
@@ -323,7 +384,7 @@ nav{
 .footer2Heading{
     font-size: 16px;
     font-weight: 700;
-    color: white;
+    color: black;
     margin: 6px 0 14px 0;
 }
 .footer2link ul{
@@ -332,7 +393,7 @@ nav{
 }
 .footer2link ul li a{
     text-decoration: none;
-    color: #DDD;
+    color: black;
     font-size: 13px;
 }
 .footer2link ul li a:hover{
@@ -343,7 +404,8 @@ nav{
     justify-content: center;
     gap: 50px;
     padding: 40px 100px;
-    border-top: 1px solid #3a4553;
+    border-top: 1px solid #29A56C;
+    background-color: #29A56C;
 }
 .footerLogo{
     height: 30px;
@@ -369,7 +431,7 @@ nav{
 }
 .footer3{
     padding: 40px 100px;
-    background-color: #131a22;
+    background-color: #29A56C;
 }
 .footer3Top{
     display: flex;
@@ -386,7 +448,7 @@ display: flex;
 flex-direction: column;
 }
 .footer3Heading{
-    color: #DDD;
+    color: white;
     font-size: 12px;
     margin-bottom: 0;
 }
@@ -397,7 +459,7 @@ flex-direction: column;
 .footer3Content ul li a{
     text-decoration: none;
     font-size: 12px;
-    color: #979797;
+    color: #ddd;
 }
 .footer3Content ul li a:hover{
     text-decoration: underline !important;
@@ -443,10 +505,26 @@ flex-direction: column;
     transition: color 0.3s;
     border: 1px solid rgba(0, 0, 0 , 0.1);
     /* height: 40px; */
-    padding: 10px 30px;
+    min-height: 40px;
+    padding: 0px 15px;
     border-radius: 4px;
+    min-width: 40px;
+    max-height: 40px;
     box-shadow: 0px 0px 10px 1px rgba(0, 0, 0 , 0.1); 
 }
+.sp_signup {
+    min-width: 40px;
+    max-width: 40px;
+    max-height: 40px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sp_signup img {
+    width: 18px !important;
+    height: 18px !important;
+} 
 .sp_location:hover {
     color: #333;
     border-color:black ;
@@ -546,6 +624,21 @@ flex-direction: column;
     border-radius: 50%;
     color: #29A56C;
     margin-right: 10px;
+}
+.sp_submenu{
+    background-color: #29A56C !important;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 0;
+}
+.subMenu {
+    position: absolute !important;
+    top: 2px;
+    left: 0px;
+    width:fit-content;
+    padding: 2px 10px;
+    background-color: white;
+
 }
 @media screen and (max-width:1024px){
     .footerColumn {
