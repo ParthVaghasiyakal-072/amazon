@@ -559,7 +559,7 @@ async function hotElectronicsGetData() {
 
 hotElectronicsGetData();
 
-async function hotElectronicsGetData() {
+async function hotInspireHistoryGetData() {
     const response = await fetch(`http://localhost:3000/INDEX2`);
     let json = await response.json();
     console.log("hello", json);
@@ -660,7 +660,7 @@ async function hotElectronicsGetData() {
     hotWatch.innerHTML = html;
 }
 
-hotElectronicsGetData();
+hotInspireHistoryGetData();
 
 async function  viewCustomerGetData() {
     const response = await fetch(`http://localhost:3000/INDEX2`);
