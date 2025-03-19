@@ -139,8 +139,7 @@
         "starrating": 4,
         "price": 499,
         "catogery": "home"
-      }
-      ,
+      },
       {
         "id": "9",
         "image": "/image/potu4.jpg",
@@ -1895,7 +1894,7 @@
     "InspiredbyHistory2": [
         {
             "id": "1",
-            "image": "image/carcwash1.jpg",
+            "image": "/image/carwash1.jpg",
             "title": "APPUCOCO Mini Car Trash Bin Can Holder Dustbin - Black (L 17 x W 6.5 cms)",
             "starrating": 4,
             "price": 499,
@@ -2305,7 +2304,7 @@
       },
       {
         "id": "6",
-        "image": "/image/markerset5.jpg",
+        "image": "/image/books5.jpg",
         "title": "Sonata Poze Quartz Analog Pink Dial Metal with ABS Strap Watch for Woman_SP80051KD01W",
         "starrating": 2,
         "price": 499,
@@ -2313,7 +2312,7 @@
       },
       {
         "id": "7",
-        "image": "/image/markerset6.jpg",
+        "image": "/image/books6.jpg",
         "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
         "starrating": 4,
         "price": 499,
@@ -2321,7 +2320,7 @@
       },
       {
         "id": "8",
-        "image": "/image/markerset7.jpg",
+        "image": "/image/markerset3.jpg",
         "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
         "starrating": 4,
         "price": 499,
@@ -2395,7 +2394,7 @@
       },
       {
         "id": "8",
-        "image": "/image/tide7.jpg",
+        "image": "/image/tide1.jpg",
         "title": "ShineXPro Microfiber Car Cleaning Cloth - OG Soft 500 GSM Extra Large (35x75 CM) Microfiber Cloth for Car and Bike - Suede Edging for Scratchless Drying and Detailing (Pack of 2, Grey)",
         "starrating": 4,
         "price": 499,
@@ -2709,7 +2708,7 @@
     "InspiredbyHistory2": [
         {
             "id": "1",
-            "image": "image/carcwash1.jpg",
+            "image": "/image/carwash1.jpg",
             "title": "APPUCOCO Mini Car Trash Bin Can Holder Dustbin - Black (L 17 x W 6.5 cms)",
             "starrating": 4,
             "price": 499,
