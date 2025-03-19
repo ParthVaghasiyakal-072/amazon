@@ -236,15 +236,17 @@
     </nav> -->
 
     <nav class="">
-        <section class=" d-flex align-items-center justify-content-between px-5 py-4">
-            <div class="sp_logo">
+        <section class=" d-flex align-items-center justify-content-between px-lg-5 px-3 py-4">
+            <div class="sp_logo order-md-1 order-1">
                 <img src="./image/logo.svg">
             </div>
-            <div class="searchBar">
+            <div class="searchBar order-md-2 order-3">
                 <div class="input-group sp_searchDropdown se h-100">
                     <div class="d-flex searchDropdown justify-content-between">
-                        <input type="text" class="w-75 flex-fill text-dark fs-6 text-center" style="font-weight: 600;" value="All category" readonly >
-                        <i class="fa-solid fa-angle-down text-dark w-25 d-flex justify-content-center align-items-center"></i>
+                        <input type="text" class="w-75 flex-fill text-dark fs-6 text-center" style="font-weight: 600;"
+                            value="All category" readonly>
+                        <i
+                            class="fa-solid fa-angle-down text-dark w-25 d-flex justify-content-center align-items-center"></i>
                     </div>
                     <div class="srch_cat">
                         <input type="text" class="s_input">
@@ -316,27 +318,130 @@
                             class="fa fa-search seachIcon"></i></button>
                 </div>
             </div>
-            <div class="column2 align-items-center">
-                <a class="sp_location d-flex justify-content-between align-items-center">
+            <div class="column2 align-items-center order-md-3 order-2">
+                <a class="   sp_location sp_location1 d-flex justify-content-between align-items-center">
                     <i class="fa fa-map-marker-alt me-3 align-self-center"></i>
                     <span class="locationName">India</span>
                 </a>
-                <a href="" class="signIn">
-                    <p class="navPreTitle">Hello, sign in</p>
-                    <p class="navTitle">Account & Lists</p>
+                <a href="" class="d-md-flex d-none sp_location sp_signup py-0">
+                    <i class="fa-regular fa-user  align-self-center"></i>
                 </a>
-                <a class="cart">
+                <a class="  d-md-flex d-none sp_signup sp_location cart">
                     <span class="cartNumber">0</span>
                     <img src="/image/carticon.png"></img>
-                    <p class="navTitle">Cart</p>
+                    <!-- <p class="navTitle">Cart</p> -->
+                </a>
+                <a href="" class=" d-md-none sp_location sp_signup py-0 " data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars  align-self-center"></i>
                 </a>
             </div>
         </section>
+        <!-- responsive menu offcanvas -->
+        <div class="sp_offcanvas offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+            aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+                <img src="./image/logo.svg">
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <div class="mb-5">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <h5 class="subMenuHeading">Trending</h5>
+                        <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Best Sellers<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">New Releases<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Movers and Shakers<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <hr>
+                        <h5 class="subMenuHeading">Digital Content and Devices</h5>
+                        <li class="nav-item"><a class="nav-link" href="#">Amazon Launchpad<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Amazon Renewed<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Apps for Android<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Baby Products<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Bags, Wallets and Luggage<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Beauty<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Books<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Car & Motorbike<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Clothing & Accessories<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Computers &Accessories<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Electronics<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Garden & Outdoors<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Gift Cards<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Grocery & Gourmet Foods<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Health & Personal Care<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Home & Kitchen<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Home Improvement<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Industrial & Scientific<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Jewellery<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Kindle Store<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Movies & TV Shows<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Music<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Musical Instruments<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Office Products<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Pet Supplies<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Shoes & Handbags<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Software<i class="fa fa-angle-right"></i></a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sports, Fitness & Outdoors<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Toys & Games<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Video Games<i
+                                    class="fa fa-angle-right"></i></a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Watches<i class="fa fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="column2 sp_column align-items-center order-md-3 order-2 bg-white">
+                    <a class=" sp_signu  sp_location  d-flex justify-content-between align-items-center">
+                        <i class="fa fa-map-marker-alt align-self-center"></i>
+                    </a>
+                    <a href="" class="sp_location sp_signup py-0">
+                        <i class="fa-regular fa-user  align-self-center"></i>
+                    </a>
+                    <a class="sp_signup sp_location cart">
+                        <span class="cartNumber">0</span>
+                        <img src="/image/carticon.png"></img>
+                        <!-- <p class="navTitle">Cart</p> -->
+                    </a>
+
+                </div>
+            </div>
+        </div>
         <section>
             <div class="navBottom">
                 <div class="hamburger position-relative">
                     <nav class="navbar">
-                        <div class="container-fluid">
+                        <div class="container-fluid px-0 position-relative">
                             <!-- <div class="subMenu">
                                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                                     data-bs-target="#offcanvasNavbarNavbar" aria-controls="offcanvasNavbarNavbar"
@@ -391,13 +496,8 @@
                                     </ul>
                                 </div>
                             </div> -->
-                            <div class="subMenu sp_submenu">
-                                <div class="navbar-toggler px-3" onclick="showallcat()">
-                                    <i class="fa-solid fa-bars align-self-center px-3"></i>
-                                    <a class="navbar-brand" href="#">All</a>
-                                </div>
-                            </div>
-                            <ul class="navBarList">
+
+                            <ul class="navBarList ms-3">
                                 <li><a href="">Sell</a></li>
                                 <li><a href="">Best Sellers</a></li>
                                 <li><a href="">Mobiles</a></li>
@@ -413,7 +513,17 @@
                             </ul>
                         </div>
                     </nav>
-                    <div class="sp_allcat d-none d-flex justify-content-between align-items-center flex-wrap" id="sp_allcat">
+                    <div class="subMenu">
+                        <div class="sp_submenu">
+                            <div class="navbar-toggler px-3" onclick="showallcat()">
+                                <i class="fa-solid fa-bars align-self-center px-3"></i>
+                                <a class="navbar-brand" href="#">All</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sp_allcat d-none d-flex justify-content-between align-items-center flex-wrap"
+                        id="sp_allcat">
                         <div class="sp_allcatinner">
                             <p>Sell</p>
                         </div>
@@ -450,14 +560,19 @@
                         <div class="sp_allcatinner">
                             <p>Toys & Games</p>
                         </div>
-                        <p class="text-dark text-center flex-fill sp_show_op" onclick="showmorecat()"><i class="fa-solid fa-plus" ></i><span class="ms-1">Show more...</span></p>
+                        <p class="text-dark text-center flex-fill sp_show_op" id="showmore"
+                            onclick="showmorecat('showmore')"><i class="fa-solid fa-plus"></i><span class="ms-1">Show
+                                more...</span></p>
+                        <p class="text-dark text-center flex-fill sp_show_op d-none" id="showless"
+                            onclick="showmorecat('showless')"><i class="fa-solid fa-plus"></i><span class="ms-1">Show
+                                less...</span></p>
                     </div>
                 </div>
             </div>
         </section>
     </nav>
 
-    <div class="section mx-auto">
+    <div class="section mx-auto d-none d-md-flex">
         <ul class="d-flex flex-wrap m-0">
             <li class="p-2 font-size-sm"><a href="#" class="text-black">BestSellers</a></li>
             <li class="p-2 font-size-sm"><a href="index2.html" class="text-black">Hot New Releases</a></li>
@@ -468,12 +583,12 @@
     </div>
 
     <div class="container1 Bestseller">
-        <div class="my-3 px-2">
+        <!-- <div class="my-3 px-2">
             <h1 class="mb-0 fs-2">Amazon Bestsellers</h1>
             <p class="smalltext">Our most popular products based on sales. Updated frequently.</p>
-        </div>
+        </div> -->
 
-        <div class="products">
+        <div class="products d-none d-md-block">
             <div class="d-flex">
 
                 <div class="col-lg-2 col-md-3 col-sm-4 border-end px-4">
@@ -575,2449 +690,11 @@
                     </div>
                 </div>
 
-                <div class="col-10">
-
-                    <div class="ps-3">
-                        <h3 class="fw-bold my-3">Bestsellers in Car & Motorbike
-                            <span><a href="#" class="font14 seemore text-decoration-none">See More</a></span>
-                        </h3>
-
-                        <div class="swiper-container mySwiper parent-container mySwipertestimonial w-100 my-2"
-                            space-between="20" slides-per-view="6">
-
-                                <div class="swiper-wrapper" id="ds_CarMotorBike">
-                                                                        
-                                </div>
-                                <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i></div>
-                                <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i></div>
-                            </div>
-                            <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i></div>
-                            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i></div>
-                        </div>
-                    </div>
-
-                    <div class="ps-3">
-                        <h3 class="fw-bold my-3">Bestsellers in Clothing & Accessories
-                            <span><a href="#" class="font14 seemore text-decoration-none">See More</a></span>
-                        </h3>
-
-                        <div class="swiper-container mySwiper parent-container mySwipertestimonial w-100"
-                            space-between="20" slides-per-view="6">
-
-                                <div class="swiper-wrapper" id="ds_Clothing">
-                                    <!-- <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#1</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/dress.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="clothes/cordset/cordset.html" class="font14 description">ANNI DESIGNER Women Cotton Blend Kurta with Palazzo
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/dress.jpg" class="objectfit" />
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#3</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/scrurt.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="clothes/scrurt/scrurt.html" class="font14 description">ALYNE Lycra Saree Shapewear Petticoat for Women, Women's Blended Saree Shapewear</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#4</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/product clothes/greenshirt1.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="clothes/greentshirt/greentshirt.html" class="font14 description">Lux Cozi Men's Regular Fit Polo Neck Half Sleeve Solid Casual T-Shirt | Polo T-Shirt for Men
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#5</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/bluetop.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="clothes/bluetop/bluetop.html" class="font14 description">rytras Women's Floral Printed Cotton Top
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#6</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/tshirt.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="clothes/redtshirt/redtshirt.html" class="font14 description">Lux Cozi Men's Regular Fit Polo Neck Half Sleeve Solid Casual T-Shirt | Polo T-Shirt for Men                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#7</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/nightsuit.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="clothes/nightsuit/nightsuit.html" class="font14 description">KSHS Women's Cotton Printed Night Suit Set of Top & Shorts
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#8</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/trouser.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="clothes/trouser/trouser.html" class="font14 description">Allen Solly Men's Regular Fit Polo
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#9</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/payjamas.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="clothes/payjamas/payjamas.html" class="font14 description">BLINKIN Women Cotton Casual Style Pyjamas Combo Pack Of 2 With Side Pockets
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                   
-                                </div>
-                                <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i> </div>
-                                <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i></div>
-                            </div>
-                    </div>
-
-                    <div class="ps-3">
-                            <h3 class="fw-bold my-3">Bestsellers in Baby Products
-                                <span><a href="#" class="font14 seemore text-decoration-none">See More</a></span>
-                            </h3>
-
-                            <div class="swiper-container mySwiper parent-container mySwipertestimonial w-100"
-                                space-between="20" slides-per-view="6">
-
-                                <div class="swiper-wrapper" id="ds_BabyProduct">
-                                    <!-- <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#1</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/baby1.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="babyproduct/pampers/pampers.html" class="font14 description">Little's Baby Pants Diapers,Large (L), 9-14 kg, 60 Count, with Wetness Indicator and 12 Hours Absorption
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#2</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/baby2.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="babyproduct/bluepampers/bluepampers.html" class="font14 description">MamyPoko Pants Extra Absorb Baby Diapers, Medium (M), 74 Count, 7-12kg
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#3</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/baby3.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="babyproduct/redpampers/redpampers.html" class="font14 description">Huggies Complete Comfort Wonder Pants Extra Large (XL) Size (12-17 Kgs) Baby Diaper Pants, 56 count| India's Fastest Absorbing Diaper with upto 4x faster absorption | Unique Dry Xpert Channel</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#4</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/baby4.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="babyproduct/mummypoko/mummypoko.html" class="font14 description">MamyPoko Pants Standard Baby Diapers, Large (L), 46 Count, 9-14kg
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#5</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/baby5.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="babyproduct/skypampers/skypampers.html" class="font14 description">Pampers Premium Care Pants Style Baby Diapers, Large (L) Size, 88 Count, All-in-1 Diapers with 360 Cottony Softness, 9-14kg Diapers</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#6</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/baby6.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="babyproduct/littes/littes.html" class="font14 description">Little's Soft Cleansing Baby Wipes Lid, 80 Wipes (Pack of 3)
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#7</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/baby7.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="babyproduct/mee mee/mee_mee.html" class="font14 description">Mee Mee Caring Baby Wet Wipes with lid, 72 Pcs (Aloe Vera, Pack of 3)
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#8</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/baby8.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="babyproduct/Supples/Supples.html" class="font14 description">Supples Premium Diapers, X-Large (XL), 54 Count, 12-17 Kg, 12 hrs Absorption Baby Diaper Pants
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#9</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/baby9.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="babyproduct/littellast/littellast.html" class="font14 description">Little's Baby Pants Diapers,Large (L), 9-14 kg, 60 Count, with Wetness Indicator and 12 Hours Absorption</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    
-                                </div>
-
-                                <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i>
-                                </div>
-                                <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i>
-                                </div>
-                            </div>
-
-                    </div>
-
-                    <div class="ps-3">
-                            <h3 class="fw-bold my-3">Bestsellers in Toys & Games
-                                <span><a href="#" class="font14 seemore text-decoration-none">See More</a></span>
-                            </h3>
-
-                            <div class="swiper-container mySwiper parent-container mySwipertestimonial w-100"
-                                space-between="20" slides-per-view="6">
-
-                                <div class="swiper-wrapper" id="ds_ToysGames">
-                                    <!-- <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#1</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/toy & games/toy1.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Toygames/Penguin/penguin.html" class="font14 description">Amazon Brand - Jam & Honey Penguin, Plush/Soft Toy for Boys, Girls and Kids, Super-Soft, Safe, Great Birthday Gift (Black and White, 17 cm)
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#2</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/toy2.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Toygames/remotecar/remotecar.html" class="font14 description">Wembley RC Car Rechargeable Remote Control Car for Kids Mini 1:24 Scale High Speed Racing Car - Black                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#3</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/toy3.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Toygames/dancingtoy/dancingtoy.html" class="font14 description">Storio Toys Dancing Cactus Talking Toy, Cactus Plush Toy, Wriggle & Singing Recording Repeat What You Say Funny Education Toys for Babies Children Playing, Home Decorate
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#4</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/toy4.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Toygames/sciencekit/sciencekit.html" class="font14 description">Einstein Box Ultimate Science Kit for Boys and Girls Ages 6-8-10-12-14 Years| Birthday Gifts Ideas for Kids| STEM Learning Toys for 6,7,8,9,10,11,12,13,14 Year Olds|
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#5</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/toy7.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Toygames/bathtab/bathtab.html" class="font14 description">Intex Inflatable Kids Bath Tub, 3 Ft (Multicolor)
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#6</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/toy5.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Toygames/football/football.html" class="font14 description">Mirana C-Type USB Rechargeable Battery Powered Hover Football Indoor Floating Hoverball Soccer | Air Football Smart | Original Made in India Fun Toy for Boys and Kids (Red)
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#7</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/toy6.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Toygames/ridecar/ridecar.html" class="font14 description">LuvLap Sunny Ride on & Car for Kids with Music & Horn Steering, Push Car for Baby with Backrest, Safety Guard, Under Seat Storage & Big Wheels, Ride on for Kids 1 to 3 Years Upto 25 Kgs (Yellow)
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#8</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/toy8.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Toygames/softtoy/softtoy.html" class="font14 description">Storio Toy Octopus Plushie Reversible Soft Toys for Kids | Plush Soft Toys for Baby Boys and Girls | Octopus Soft Toy for Kids -18cm
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#9</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/toy9.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Toygames/ring/ring.html" class="font14 description">Little's Plastic Junior Ring (Multicolour) (6 pieces)
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    
-                                </div>
-                                <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i>
-                                </div>
-                                <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i>
-                                </div>
-                            </div>
-
-                    </div>
-
-                    <div class="ps-3">
-                            <h3 class="fw-bold my-3">Bestsellers in Computers & Accessories
-                                <span><a href="#" class="font14 seemore text-decoration-none">See More</a></span>
-                            </h3>
-
-                            <div class="swiper-container mySwiper parent-container mySwipertestimonial w-100"
-                                space-between="20" slides-per-view="6">
-
-                                <div class="swiper-wrapper" id="ds_Computer">
-                                    <!-- <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#1</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 (51).jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="accessories/mostRenew1/mostRenew1.0.html" class="font14 description">(Refurbished) realme Buds Wireless Bluetooth In Ear Neckband Headphone with Mic (Yellow)</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#2</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 (52).jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="accessories/mostRenew2/mostRenew2.0.html" class="font14 description">(Refurbished) OnePlus 6T (Mirror Black, 8GB RAM, 128GB Storage)</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#3</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 (53).jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="accessories/mostRenew3/mostRenew3.0.html" class="font14 description">ShineXPro Microfiber Car Cleaning
-                                                    (Renewed) MI Smart Band 4 , Black</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#4</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 (54).jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="accessories/mostRenew4/mostRenew4.0.html" class="font14 description">(Renewed) Mi Band 3 - Black</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#5</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 (55).jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="accessories/mostRenew5/mostRenew5.0.html" class="font14 description">(Renewed) JBL T205BT Pure Bass Wireless Metal Earbud Headphones with Mic (Blue)</a>
-                                        </a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-                                    <!-- </div> -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#2</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/dress2.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="clothes/reddress/reddress.html" class="font14 description">ANNI
-                                                DESIGNER Women's Cotton Blend Straight Embroidered Kurta Set With
-                                                Dupatta
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#6</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 (56).jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="accessories/mostRenew6/mostRenew6.0.html" class="font14 description"> (Renewed) OnePlus 6 (Mirror Black, 6GB RAM, 64GB Storage)</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#7</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 (57).jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="accessories/mostRenew7/mostRenew7.0.html" class="font14 description">(Refurbished) pTron Bassbuds Jets True Wireless Bluetooth 5.0 Headphone, 20Hrs Total
-                                                    Playback with Case, Deep Bass, Touch Control, IPX4 Water Resistant, Voice Assistant,
-                                                    Builtin Mic & Digital Display (Black & Blue)</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#8</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 (58).jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="accessories/mostRenew8/mostRenew8.0.html" class="font14 description">(Refurbished) Sony Wi-C200 Bluetooth Wireless In Ear Earphones With Mic (White)</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#9</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 (59).jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="accessories/mostRenew9/mostRenew9.0.html" class="font14 description">SOFTSPUN Microfiber Cloth - 4 pcs -
-                                                    40x40 cms - 340 GSM Grey! Thick Lint &
-                                                    Streak-Free Multipurpose Cloths -
-                                                    Automotive Microfibre</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#3</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/scrurt.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="clothes/scrurt/scrurt.html" class="font14 description">ALYNE Lycra
-                                                Saree Shapewear Petticoat for Women, Women's Blended Saree Shapewear</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#4</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/product clothes/greenshirt1.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="clothes/greentshirt/greentshirt.html"
-                                                class="font14 description">Lux Cozi Men's Regular Fit Polo Neck Half
-                                                Sleeve Solid Casual T-Shirt | Polo T-Shirt for Men
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <!-- <div class=""> -->
-                                    <div class="d-flex">
-                                        <div class="sqare ps-1">
-                                            <span>#5</span>
-                                        </div>
-                                        <div class="sqare2"></div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/bluetop.jpg" class="objectfit" />
-                                    </div>
-                                    <div class="me-3">
-                                        <a href="clothes/bluetop/bluetop.html" class="font14 description">rytras Women's
-                                            Floral Printed Cotton Top
-                                        </a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-                                    <!-- </div> -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#6</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/tshirt.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="clothes/redtshirt/redtshirt.html" class="font14 description">Lux
-                                                Cozi Men's Regular Fit Polo Neck Half Sleeve Solid Casual T-Shirt | Polo
-                                                T-Shirt for Men </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#7</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/nightsuit.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="clothes/nightsuit/nightsuit.html" class="font14 description">KSHS
-                                                Women's Cotton Printed Night Suit Set of Top & Shorts
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#8</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/trouser.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="clothes/trouser/trouser.html" class="font14 description">Allen
-                                                Solly Men's Regular Fit Polo
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#9</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/payjamas.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="clothes/payjamas/payjamas.html" class="font14 description">BLINKIN
-                                                Women Cotton Casual Style Pyjamas Combo Pack Of 2 With Side Pockets
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i> </div>
-                            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i></div>
-                        </div>
-                    </div>
-
-                    <div class="ps-3">
-                        <h3 class="fw-bold my-3">Bestsellers in Baby Products
-                            <span><a href="#" class="font14 seemore text-decoration-none">See More</a></span>
-                        </h3>
-
-                        <div class="swiper-container mySwiper parent-container mySwipertestimonial w-100"
-                            space-between="20" slides-per-view="6">
-
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <!-- <div class=""> -->
-                                    <div class="d-flex">
-                                        <div class="sqare ps-1">
-                                            <span>#1</span>
-                                        </div>
-                                        <div class="sqare2"></div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/baby1.jpg" class="objectfit" />
-                                    </div>
-                                    <div class="me-3">
-                                        <a href="babyproduct/pampers/pampers.html" class="font14 description">Little's
-                                            Baby Pants Diapers,Large (L), 9-14 kg, 60 Count, with Wetness Indicator and
-                                            12 Hours Absorption
-                                        </a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-                                    <!-- </div> -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#2</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/baby2.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="babyproduct/bluepampers/bluepampers.html"
-                                                class="font14 description">MamyPoko Pants Extra Absorb Baby Diapers,
-                                                Medium (M), 74 Count, 7-12kg
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#3</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/baby3.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="babyproduct/redpampers/redpampers.html"
-                                                class="font14 description">Huggies Complete Comfort Wonder Pants Extra
-                                                Large (XL) Size (12-17 Kgs) Baby Diaper Pants, 56 count| India's Fastest
-                                                Absorbing Diaper with upto 4x faster absorption | Unique Dry Xpert
-                                                Channel</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#4</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/baby4.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="babyproduct/mummypoko/mummypoko.html"
-                                                class="font14 description">MamyPoko Pants Standard Baby Diapers, Large
-                                                (L), 46 Count, 9-14kg
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <!-- <div class=""> -->
-                                    <div class="d-flex">
-                                        <div class="sqare ps-1">
-                                            <span>#5</span>
-                                        </div>
-                                        <div class="sqare2"></div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/baby5.jpg" class="objectfit" />
-                                    </div>
-                                    <div class="me-3">
-                                        <a href="babyproduct/skypampers/skypampers.html"
-                                            class="font14 description">Pampers Premium Care Pants Style Baby Diapers,
-                                            Large (L) Size, 88 Count, All-in-1 Diapers with 360 Cottony Softness, 9-14kg
-                                            Diapers</a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-                                    <!-- </div> -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#6</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/baby6.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="babyproduct/littes/littes.html" class="font14 description">Little's
-                                                Soft Cleansing Baby Wipes Lid, 80 Wipes (Pack of 3)
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#7</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/baby7.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="babyproduct/mee mee/mee_mee.html" class="font14 description">Mee
-                                                Mee Caring Baby Wet Wipes with lid, 72 Pcs (Aloe Vera, Pack of 3)
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#8</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/baby8.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="babyproduct/Supples/Supples.html"
-                                                class="font14 description">Supples Premium Diapers, X-Large (XL), 54
-                                                Count, 12-17 Kg, 12 hrs Absorption Baby Diaper Pants
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#9</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/baby9.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="babyproduct/littellast/littellast.html"
-                                                class="font14 description">Little's Baby Pants Diapers,Large (L), 9-14
-                                                kg, 60 Count, with Wetness Indicator and 12 Hours Absorption</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i>
-                            </div>
-                            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="ps-3">
-                        <h3 class="fw-bold my-3">Bestsellers in Toys & Games
-                            <span><a href="#" class="font14 seemore text-decoration-none">See More</a></span>
-                        </h3>
-
-                        <div class="swiper-container mySwiper parent-container mySwipertestimonial w-100"
-                            space-between="20" slides-per-view="6">
-
-                                <div class="swiper-wrapper" id="ds_Beauty">
-                                    <!-- <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#1</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 1.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Beauty/mosthelth1/mosthelth1.0.html" class="font14 description"> MI Xiaomi Beard Trimmer for Men 2C With High Precision Trimming | 2 Beard Comb | USB
-                                                Type-C | Fast Charging | 0.5mm Precision | 40 Length Settings | 90 Min Run Time,
-                                                Black</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/toy & games/toy1.jpg" class="objectfit" />
-                                    </div>
-                                    <div class="me-3">
-                                        <a href="Toygames/Penguin/penguin.html" class="font14 description">Amazon Brand
-                                            - Jam & Honey Penguin, Plush/Soft Toy for Boys, Girls and Kids, Super-Soft,
-                                            Safe, Great Birthday Gift (Black and White, 17 cm)
-                                        </a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#4</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/slide3.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Beauty/mosthelth6/mosthelth6.3.html" class="font14 description"> Kawax Portable eyebrow trimmer for women, epilator for women, facial hair remover for women,Face, Lips, Nose Hair Removal Electric Trimmer with Light(D2)
-                                                </a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#5</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 5.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Beauty/mosthelth5/mosthelth5.0.html" class="font14 description"> Miserwe Women's Painless Hair Remover Facial Hair Removal Painless Hair Trimmer
-                                                Shaver Waterproof for Facial Bikini area Body Hair, Gold</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#6</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 6.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Beauty/mosthelth6/mosthelth6.0.html" class="font14 description">Hair Remover For Women Skincare Lipstick Shape Mini Epilator trimmer Machine for
-                                                    face, Upper Lip, Chin, Eyebrow, etc. with Battery(Golden White)</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#7</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 7.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Beauty/mosthelth7/mosthelth7.0.html" class="font14 description">Himalaya Pure Hands | Hand Sanitizer - 500 ml (Lemon) (Packaging may vary)</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#8</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 8.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Beauty/mosthelth8/mosthelth8.0.html" class="font14 description">Ambi Pur Air Freshener - Sweet Berries - 275 g Spray</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <div class="">
-                                            <div class="d-flex">
-                                                <div class="sqare ps-1">
-                                                    <span>#9</span>
-                                                </div>
-                                                <div class="sqare2"></div>
-                                            </div>
-                                            <div class="sliderimg">
-                                                <img src="image/ASS1 9.jpg" class="objectfit" />
-                                            </div>
-                                            <div class="me-3">
-                                                <a href="Beauty/mosthelth9/mosthelth9.0.html" class="font14 description">Dr Physio Electric Full Body Massager for Pain Relief of Back, Leg & Foot, White</a>
-                                                <p class="mb-0">
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                    <i class="fa-regular fa-star startcolor"></i>
-                                                </p>
-                                                <a href="#" class="font14 colorprice">₹499.00</a>
-                                            </div>
-                                        </div>
-                                    </div> -->
-                                    
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#2</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/toy2.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Toygames/remotecar/remotecar.html"
-                                                class="font14 description">Wembley RC Car Rechargeable Remote Control
-                                                Car for Kids Mini 1:24 Scale High Speed Racing Car - Black </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#3</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/toy3.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Toygames/dancingtoy/dancingtoy.html"
-                                                class="font14 description">Storio Toys Dancing Cactus Talking Toy,
-                                                Cactus Plush Toy, Wriggle & Singing Recording Repeat What You Say Funny
-                                                Education Toys for Babies Children Playing, Home Decorate
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#4</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/toy4.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Toygames/sciencekit/sciencekit.html"
-                                                class="font14 description">Einstein Box Ultimate Science Kit for Boys
-                                                and Girls Ages 6-8-10-12-14 Years| Birthday Gifts Ideas for Kids| STEM
-                                                Learning Toys for 6,7,8,9,10,11,12,13,14 Year Olds|
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <!-- <div class=""> -->
-                                    <div class="d-flex">
-                                        <div class="sqare ps-1">
-                                            <span>#5</span>
-                                        </div>
-                                        <div class="sqare2"></div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/toy7.jpg" class="objectfit" />
-                                    </div>
-                                    <div class="me-3">
-                                        <a href="Toygames/bathtab/bathtab.html" class="font14 description">Intex
-                                            Inflatable Kids Bath Tub, 3 Ft (Multicolor)
-                                        </a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-                                    <!-- </div> -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#6</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/toy5.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Toygames/football/football.html" class="font14 description">Mirana
-                                                C-Type USB Rechargeable Battery Powered Hover Football Indoor Floating
-                                                Hoverball Soccer | Air Football Smart | Original Made in India Fun Toy
-                                                for Boys and Kids (Red)
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#7</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/toy6.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Toygames/ridecar/ridecar.html" class="font14 description">LuvLap
-                                                Sunny Ride on & Car for Kids with Music & Horn Steering, Push Car for
-                                                Baby with Backrest, Safety Guard, Under Seat Storage & Big Wheels, Ride
-                                                on for Kids 1 to 3 Years Upto 25 Kgs (Yellow)
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#8</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/toy8.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Toygames/softtoy/softtoy.html" class="font14 description">Storio
-                                                Toy Octopus Plushie Reversible Soft Toys for Kids | Plush Soft Toys for
-                                                Baby Boys and Girls | Octopus Soft Toy for Kids -18cm
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#9</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/toy9.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Toygames/ring/ring.html" class="font14 description">Little's
-                                                Plastic Junior Ring (Multicolour) (6 pieces)
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i>
-                            </div>
-                            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="ps-3">
-                        <h3 class="fw-bold my-3">Bestsellers in Computers & Accessories
-                            <span><a href="#" class="font14 seemore text-decoration-none">See More</a></span>
-                        </h3>
-
-                        <div class="swiper-container mySwiper parent-container mySwipertestimonial w-100"
-                            space-between="20" slides-per-view="6">
-
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <!-- <div class=""> -->
-                                    <div class="d-flex">
-                                        <div class="sqare ps-1">
-                                            <span>#1</span>
-                                        </div>
-                                        <div class="sqare2"></div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/ASS1 (51).jpg" class="objectfit" />
-                                    </div>
-                                    <div class="me-3">
-                                        <a href="accessories/mostRenew1/mostRenew1.0.html"
-                                            class="font14 description">(Refurbished) realme Buds Wireless Bluetooth In
-                                            Ear Neckband Headphone with Mic (Yellow)</a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-                                    <!-- </div> -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#2</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 (52).jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="accessories/mostRenew2/mostRenew2.0.html"
-                                                class="font14 description">(Refurbished) OnePlus 6T (Mirror Black, 8GB
-                                                RAM, 128GB Storage)</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#3</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 (53).jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="accessories/mostRenew3/mostRenew3.0.html"
-                                                class="font14 description">ShineXPro Microfiber Car Cleaning
-                                                (Renewed) MI Smart Band 4 , Black</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#4</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 (54).jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="accessories/mostRenew4/mostRenew4.0.html"
-                                                class="font14 description">(Renewed) Mi Band 3 - Black</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <!-- <div class=""> -->
-                                    <div class="d-flex">
-                                        <div class="sqare ps-1">
-                                            <span>#5</span>
-                                        </div>
-                                        <div class="sqare2"></div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/ASS1 (55).jpg" class="objectfit" />
-                                    </div>
-                                    <div class="me-3">
-                                        <a href="accessories/mostRenew5/mostRenew5.0.html"
-                                            class="font14 description">(Renewed) JBL T205BT Pure Bass Wireless Metal
-                                            Earbud Headphones with Mic (Blue)</a>
-                                        </a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-                                    <!-- </div> -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#6</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 (56).jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="accessories/mostRenew6/mostRenew6.0.html"
-                                                class="font14 description"> (Renewed) OnePlus 6 (Mirror Black, 6GB RAM,
-                                                64GB Storage)</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#7</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 (57).jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="accessories/mostRenew7/mostRenew7.0.html"
-                                                class="font14 description">(Refurbished) pTron Bassbuds Jets True
-                                                Wireless Bluetooth 5.0 Headphone, 20Hrs Total
-                                                Playback with Case, Deep Bass, Touch Control, IPX4 Water Resistant,
-                                                Voice Assistant,
-                                                Builtin Mic & Digital Display (Black & Blue)</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#8</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 (58).jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="accessories/mostRenew8/mostRenew8.0.html"
-                                                class="font14 description">(Refurbished) Sony Wi-C200 Bluetooth Wireless
-                                                In Ear Earphones With Mic (White)</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#9</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 (59).jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="accessories/mostRenew9/mostRenew9.0.html"
-                                                class="font14 description">SOFTSPUN Microfiber Cloth - 4 pcs -
-                                                40x40 cms - 340 GSM Grey! Thick Lint &
-                                                Streak-Free Multipurpose Cloths -
-                                                Automotive Microfibre</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i>
-                            </div>
-                            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="ps-3">
-                        <h3 class="fw-bold my-3">Bestsellers in Beauty
-                            <span><a href="#" class="font14 seemore text-decoration-none">See More</a></span>
-                        </h3>
-
-                        <div class="swiper-container mySwiper parent-container mySwipertestimonial w-100"
-                            space-between="20" slides-per-view="6">
-
-                            <div class="swiper-wrapper">
-                                <div class="swiper-slide">
-                                    <!-- <div class=""> -->
-                                    <div class="d-flex">
-                                        <div class="sqare ps-1">
-                                            <span>#1</span>
-                                        </div>
-                                        <div class="sqare2"></div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/ASS1 1.jpg" class="objectfit" />
-                                    </div>
-                                    <div class="me-3">
-                                        <a href="Beauty/mosthelth1/mosthelth1.0.html" class="font14 description"> MI
-                                            Xiaomi Beard Trimmer for Men 2C With High Precision Trimming | 2 Beard Comb
-                                            | USB
-                                            Type-C | Fast Charging | 0.5mm Precision | 40 Length Settings | 90 Min Run
-                                            Time,
-                                            Black</a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-                                    <!-- </div> -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#2</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 2.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Beauty/mosthelth2/mosthelth2.0.html"
-                                                class="font14 description">Dettol Alcohol based Hand Sanitizer,
-                                                Original, 50ml, Pack of 4</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#3</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 3.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Beauty/mosthelth3/mosthelth3.0.html" class="font14 description">
-                                                Dettol Multi-Surface Disinfectant Sanitizer Spray Bottle | 24 hours
-                                                Antibacterial
-                                                protection| Germ Kill on Hard and Soft Surfaces (Spring Blossom,
-                                                225ml)</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#4</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/slide3.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Beauty/mosthelth6/mosthelth6.3.html" class="font14 description">
-                                                Kawax Portable eyebrow trimmer for women, epilator for women, facial
-                                                hair remover for women,Face, Lips, Nose Hair Removal Electric Trimmer
-                                                with Light(D2)
-                                            </a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <!-- <div class=""> -->
-                                    <div class="d-flex">
-                                        <div class="sqare ps-1">
-                                            <span>#5</span>
-                                        </div>
-                                        <div class="sqare2"></div>
-                                    </div>
-                                    <div class="sliderimg">
-                                        <img src="image/ASS1 5.jpg" class="objectfit" />
-                                    </div>
-                                    <div class="me-3">
-                                        <a href="Beauty/mosthelth5/mosthelth5.0.html" class="font14 description">
-                                            Miserwe Women's Painless Hair Remover Facial Hair Removal Painless Hair
-                                            Trimmer
-                                            Shaver Waterproof for Facial Bikini area Body Hair, Gold</a>
-                                        <p class="mb-0">
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                            <i class="fa-regular fa-star startcolor"></i>
-                                        </p>
-                                        <a href="#" class="font14 colorprice">₹499.00</a>
-                                    </div>
-                                    <!-- </div> -->
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#6</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 6.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Beauty/mosthelth6/mosthelth6.0.html"
-                                                class="font14 description">Hair Remover For Women Skincare Lipstick
-                                                Shape Mini Epilator trimmer Machine for
-                                                face, Upper Lip, Chin, Eyebrow, etc. with Battery(Golden White)</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#7</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 7.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Beauty/mosthelth7/mosthelth7.0.html"
-                                                class="font14 description">Himalaya Pure Hands | Hand Sanitizer - 500 ml
-                                                (Lemon) (Packaging may vary)</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#8</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 8.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Beauty/mosthelth8/mosthelth8.0.html"
-                                                class="font14 description">Ambi Pur Air Freshener - Sweet Berries - 275
-                                                g Spray</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="swiper-slide">
-                                    <div class="">
-                                        <div class="d-flex">
-                                            <div class="sqare ps-1">
-                                                <span>#9</span>
-                                            </div>
-                                            <div class="sqare2"></div>
-                                        </div>
-                                        <div class="sliderimg">
-                                            <img src="image/ASS1 9.jpg" class="objectfit" />
-                                        </div>
-                                        <div class="me-3">
-                                            <a href="Beauty/mosthelth9/mosthelth9.0.html" class="font14 description">Dr
-                                                Physio Electric Full Body Massager for Pain Relief of Back, Leg & Foot,
-                                                White</a>
-                                            <p class="mb-0">
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa fa-star scolor" aria-hidden="true"></i>
-                                                <i class="fa-regular fa-star startcolor"></i>
-                                            </p>
-                                            <a href="#" class="font14 colorprice">₹499.00</a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i></div>
-                            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i></div>
-                        </div>
-
-                    </div>
-
-                </div>
 
             </div>
-
         </div>
     </div>
-    </div>
+    
 
     <div class="sectionlast p-4 my-4 border border-black border-top-1 position-relative">
 
@@ -3026,8 +703,8 @@
         <div class="swiper-container mySwiper1 parent-container mySwipertestimonial w-100 my-2" space-between="20"
             slides-per-view="10">
 
-            <div class="swiper-wrapper" id="ds_BrowseHistory">
-                <!-- <div class="swiper-slide">
+            <!-- <div class="swiper-wrapper" id="ds_BrowseHistory"> -->
+            <!-- <div class="swiper-slide">
                     <div class="sliderimg">
                         <img src="image/product car/carshampoo1.jpg" class="objectfit" />
                     </div>
@@ -3329,9 +1006,9 @@
                     </div>
                 </div> -->
 
-            </div>
-            <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i> </div>
-            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i> </div>
+            <!-- </div> -->
+            <!-- <div class="swiper-button-prev"> <i class="fa-solid fa-chevron-left fs-6"></i> </div>
+            <div class="swiper-button-next"> <i class="fa-solid fa-chevron-right fs-6"></i> </div> -->
         </div>
     </div>
 
@@ -3580,22 +1257,46 @@
         //         },
         //     });
         // });
-      
+
     </script>
 
-<!-- my js -->
- <script>
-    function showallcat(){
-        var x = document.getElementById("sp_allcat");
-        x.classList.toggle("d-none")
-    }
-    function showmorecat(){
-        var x = document.getElementsByClassName("s_hide_cat");
-        for (var i = 0; i < x.length; i++) {
-            x[i].classList.toggle("d-none");
+    <!-- my js -->
+    <script>
+        function showallcat() {
+            var x = document.getElementById("sp_allcat");
+            x.classList.toggle("d-none");
+
+            // Add event listener to detect clicks outside
+            if (!x.classList.contains("d-none")) {
+                document.addEventListener("click", hideOnClickOutside);
+            } else {
+                document.removeEventListener("click", hideOnClickOutside);
+            }
         }
-    }
- </script>
+
+        function hideOnClickOutside(event) {
+            var x = document.getElementById("sp_allcat");
+            var menuToggle = document.querySelector(".subMenu"); // The menu toggle button
+
+            // Check if the clicked target is NOT inside `sp_allcat` or the menu toggle
+            if (!x.contains(event.target) && !menuToggle.contains(event.target)) {
+                x.classList.add("d-none");
+                document.removeEventListener("click", hideOnClickOutside);
+            }
+        }
+
+        function showmorecat() {
+            var x = document.getElementsByClassName("s_hide_cat");
+            for (var i = 0; i < x.length; i++) {
+                x[i].classList.toggle("d-none");
+            }
+            var y = document.getElementsByClassName("sp_show_op");
+            for (var i = 0; i < y.length; i++) {
+                y[i].classList.toggle("d-none");
+            }
+        }
+
+    </script>
 </body>
 
-</html>
+</html

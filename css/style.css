@@ -535,12 +535,14 @@ display: -webkit-box;
 
 @media (max-width: 768px) {
   .section ul li {
-      width: 100%;
+      /* width: 100%; */
       text-align: center;
   }
   .card{
     height: 300px;
     }
+
+
 }
 
 @media (max-width: 768px) {
