@@ -17,20 +17,22 @@ async function carMotorbikeGetData() {
         }).join("");
 
         return `
+         
             <div class="swiper-slide p-3" key="${element?.id}">
-                <div class="product-card hover-btn">
+            <div class="product-card hover-btn">
+            <a href="singleproduct.html?id=${element?.id}&array=CarMoterbike&object=INDEX">
                     <div class="product-card-img double-img">
-                        <a href="singleproduct.html?id=${element?.id}&array=CarMoterbike&object=INDEX"">
+                       
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                       
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <P  class="ds_hover-underline text-dark">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </P>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -41,7 +43,8 @@ async function carMotorbikeGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
-                </div>
+                    </a>
+                    </div>
             </div>
         `;
     }).join("");
@@ -114,18 +117,19 @@ async function clothingGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                 <a href="singleproduct.html?id=${element?.id}&array=ClothingandAccessories&object=INDEX">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
+                       
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                       
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -136,6 +140,7 @@ async function clothingGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;
@@ -207,18 +212,19 @@ async function babyProductGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                 <a href="singleproduct.html?id=${element?.id}&array=BabyProducts&object=INDEX">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
+                      
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                    
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -229,6 +235,7 @@ async function babyProductGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;
@@ -300,18 +307,19 @@ async function toysGamesGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                 <a href="singleproduct.html?id=${element?.id}&array=Toysgames1&object=INDEX">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
+                       
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                        
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -322,6 +330,7 @@ async function toysGamesGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;
@@ -393,18 +402,17 @@ async function computerGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                 <a href="singleproduct.html?id=${element?.id}&array=ComputersAccessories&object=INDEX">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -415,6 +423,7 @@ async function computerGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
                 </div>
             </div>
         `;
@@ -486,18 +495,17 @@ async function beautyGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                 <a href="singleproduct.html?id=${element?.id}&array=Beauty&object=INDEX">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -508,7 +516,9 @@ async function beautyGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
-                </div>
+                        </a>
+
+                    </div>
             </div>
         `;
     }).join("");
@@ -581,20 +591,19 @@ async function  viewCustomerGetData() {
         return `
             <div class="swiper-slide p-3 h-100" key="${element?.id}">
                 <div class="product-card hover-btn h-100">
+                 <a href="singleproduct.html?id=${element?.id}&array=InspiredbyHistory1&object=INDEX">
                     <div class="product-card-img double-img position-relative">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                         ${element?.type?.seller ? `<div class="ds_offer">${element?.type?.seller}</div> ` : ""}
                         ${element?.type?.discount ? `<div class="ds_discount">${element?.type?.discount}</div> ` : ""}
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="singleproduct.html?id=${element?.id}&array=InspiredbyHistory1" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <div class="">
                         </div>
@@ -608,6 +617,8 @@ async function  viewCustomerGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
+
                 </div>
             </div>
         `;

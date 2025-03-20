@@ -57,14 +57,88 @@ document.addEventListener('DOMContentLoaded', function () {
             }
 
             const itemPrice = document.getElementById("V_price");
-            if(itemPrice) {
-                itemPrice.innerHTML = product.price;
+            if (itemPrice) {
+                itemPrice.innerHTML = Math.round(product ?.price - (product ?.price * (product?.discount2 / 100)));
             }
-            const itemPrice1= document.getElementById("V_price1");
-            if(itemPrice1) {
-                itemPrice1.innerHTML = product.price;
+            const itemPrice1 = document.getElementById("V_price1");
+            if (itemPrice1) {
+                itemPrice1.innerHTML = Math.round(product ?.price - (product ?.price * (product?.discount2 / 100)));
             }
-            
+
+            const itemDiscount2 = document.getElementById("V_discount2");
+            if (itemDiscount2) {
+                itemDiscount2.innerHTML = product?.discount2 ? product?.discount2 : null;
+            }
+
+
+
+
+
+            if (product?.type ?.seller) {
+                const itemBestSeller = document.getElementById("V_best");
+                if (itemBestSeller) {
+                    itemBestSeller.innerHTML = product?.type?.seller ? product?.type?.seller : null;
+                }
+            } else {
+                const itemDiscount = document.getElementById("V_discount");
+                if (itemDiscount) {
+                    itemDiscount.innerHTML = product?.type?.discount ? product?.type ?.discount : null;
+                }
+            }
+
+
+            const itemDescription = document.getElementById("V_description");
+            console.log("suju" , product?.discription);
+            if (product?.discription ) {
+               
+                itemDescription.innerHTML = product?.discription;
+            }
+    
+            else {
+                itemDescription.classList.add("d-none")
+            }
+
+
+
+            if (product?.type?.seller) {
+                const itemCatogery = document.getElementById("V_catogery");
+                if (itemCatogery) {
+                    itemCatogery.innerHTML = product?.catogery;
+                }
+            } else {
+                const itemCatogery2 = document.getElementById("V_catogery2");
+                if (itemCatogery2) {
+                    itemCatogery2.innerHTML = product?.catogery;
+                }
+            }
+
+            if (!product.type?.seller?.trim()) {
+                document.getElementById("V_best").classList.add("d-none");
+                document.getElementById("V_catogery").classList.add("d-none");
+            }
+            if (!product.type?.discount?.trim()) {
+                document.getElementById("V_discount").classList.add("d-none");
+                document.getElementById("V_catogery2").classList.add("d-none");
+            }
+
+            const itemMRP = document.getElementById("V_mrp");
+            if (itemMRP) {
+                itemMRP.innerHTML = product?.price;
+            }
+
+
+            const stars = Array.from({
+                length: 5
+            }, (_, index) => {
+                return index < product.starrating ?
+                    `<li class="list-unstyled"><i class="fa-solid fa-star" style="color: gold;"></i></li>` // Filled Star (Gold)
+                    :
+                    `<li class="list-unstyled"><i class="fa-regular fa-star" style="color: gold;"></i></li>`; // Outlined Star (Gold Border)
+            }).join("");
+            const rating = document.getElementById("V_rating");
+            if (rating) {
+                rating.innerHTML = stars;
+            }
         })
         .catch(error => console.error("Error fetching data:", error));
 })

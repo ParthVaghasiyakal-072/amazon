@@ -19,18 +19,17 @@ async function bestofficeproduct1GetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                            <a href="singleproduct.html?id=${element?.id}&array=OfficeProducts1&object=INDEX3">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -41,6 +40,8 @@ async function bestofficeproduct1GetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
+
                 </div>
             </div>
         `;
@@ -113,18 +114,19 @@ async function bestHealthCareGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                            <a href="singleproduct.html?id=${element?.id}&array=HealthCare&object=INDEX3">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
+                        
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                        
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -135,6 +137,7 @@ async function bestHealthCareGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;
@@ -207,18 +210,19 @@ async function bestMSAmazonRewnewedGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                   <a href="singleproduct.html?id=${element?.id}&array=MSAmazonRewnewed&object=INDEX3">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
+                        
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                        
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -229,6 +233,7 @@ async function bestMSAmazonRewnewedGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;
@@ -301,18 +306,19 @@ async function bestBagsWalletLuggageGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                   <a href="singleproduct.html?id=${element?.id}&array=BagsWalletLuggage&object=INDEX3">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
+                        
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                        
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -323,6 +329,7 @@ async function bestBagsWalletLuggageGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;
@@ -394,18 +401,19 @@ async function bestMSElectronicsGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                   <a href="singleproduct.html?id=${element?.id}&array=MSElectronics&object=INDEX3">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
+                        
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                        
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -416,6 +424,7 @@ async function bestMSElectronicsGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;
@@ -487,18 +496,19 @@ async function bestMSToysGamesGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                   <a href="singleproduct.html?id=${element?.id}&array=MSToysGames&object=INDEX3">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
+                        
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                        
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -509,6 +519,7 @@ async function bestMSToysGamesGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;
@@ -580,19 +591,20 @@ async function sendInspiredbyHistory2GetData() {
         return `
             <div class="swiper-slide p-3 h-100" key="${element?.id}">
                 <div class="product-card hover-btn h-100">
+                            <a href="singleproduct.html?id=${element?.id}&array=InspiredbyHistory2&object=INDEX3">
                     <div class="product-card-img double-img position-relative">
-                        <a href="product-default.html">
+
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                   
                         <div class="view-and-favorite-area"></div>
                         ${element?.type?.seller ? `<div class="ds_offer">${element?.type?.seller}</div> ` : ""}
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <div class="">
                         </div>
@@ -606,6 +618,7 @@ async function sendInspiredbyHistory2GetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;
@@ -683,20 +696,21 @@ async function  bestViewedbyCustomersGetData() {
         return `
             <div class="swiper-slide p-3 h-100" key="${element?.id}">
                 <div class="product-card hover-btn h-100">
+                            <a href="singleproduct.html?id=${element?.id}&array=ViewedbyCustomers&object=INDEX3">
                     <div class="product-card-img double-img position-relative">
-                        <a href="product-default.html">
+                        
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
+                        
                         <div class="view-and-favorite-area"></div>
                         ${element?.type?.seller ? `<div class="ds_offer">${element?.type?.seller}</div> ` : ""}
                         ${element?.type?.discount ? `<div class="ds_discount">${element?.type?.discount}</div> ` : ""}
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <div class="">
                         </div>
@@ -710,6 +724,7 @@ async function  bestViewedbyCustomersGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                    </a>
                 </div>
             </div>
         `;

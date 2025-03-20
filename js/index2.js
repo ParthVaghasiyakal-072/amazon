@@ -19,18 +19,17 @@ async function hotWatchGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                 <a href="singleproduct.html?id=${element?.id}&array=Watches&object=INDEX2">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -41,6 +40,7 @@ async function hotWatchGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
                 </div>
             </div>
         `;
@@ -113,18 +113,17 @@ async function hotHomeImproveGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                    <a href="singleproduct.html?id=${element?.id}&array=HomeImprovement&object=INDEX2">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -135,6 +134,7 @@ async function hotHomeImproveGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
                 </div>
             </div>
         `;
@@ -207,18 +207,17 @@ async function hotHomeKitchenGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                    <a href="singleproduct.html?id=${element?.id}&array=HomeKitchen&object=INDEX2">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -229,6 +228,7 @@ async function hotHomeKitchenGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
                 </div>
             </div>
         `;
@@ -301,18 +301,17 @@ async function hotClothAccessGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                    <a href="singleproduct.html?id=${element?.id}&array=ClothingAccessories&object=INDEX2">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -323,6 +322,7 @@ async function hotClothAccessGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
                 </div>
             </div>
         `;
@@ -394,18 +394,17 @@ async function hotToyGamesGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                    <a href="singleproduct.html?id=${element?.id}&array=Toysgames&object=INDEX2">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -416,6 +415,7 @@ async function hotToyGamesGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
                 </div>
             </div>
         `;
@@ -487,18 +487,17 @@ async function hotElectronicsGetData() {
         return `
             <div class="swiper-slide p-3" key="${element?.id}">
                 <div class="product-card hover-btn">
+                    <a href="singleproduct.html?id=${element?.id}&array=Electronics&object=INDEX2">
                     <div class="product-card-img double-img">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
@@ -509,6 +508,7 @@ async function hotElectronicsGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
                 </div>
             </div>
         `;
@@ -580,19 +580,18 @@ async function hotInspireHistoryGetData() {
         return `
             <div class="swiper-slide p-3 h-100" key="${element?.id}">
                 <div class="product-card hover-btn h-100">
+                 <a href="singleproduct.html?id=${element?.id}&array=InspiredbyHistory&object=INDEX2">
                     <div class="product-card-img double-img position-relative">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
                         <div class="view-and-favorite-area"></div>
                         ${element?.type?.seller ? `<div class="ds_offer">${element?.type?.seller}</div> ` : ""}
                     </div>
                     <div class="product-card-content">
                         <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
+                            <p class="ds_hover-underline">
                                 ${element?.title?.slice(0, 60)}
-                            </a>
+                            </p>
                         </h6>
                         <div class="">
                         </div>
@@ -606,6 +605,8 @@ async function hotInspireHistoryGetData() {
                         </div>
                     </div>
                     <span class="for-border"></span>
+                        </a>
+
                 </div>
             </div>
         `;
@@ -683,37 +684,37 @@ async function  viewCustomerGetData() {
         return `
             <div class="swiper-slide p-3 h-100" key="${element?.id}">
                 <div class="product-card hover-btn h-100">
+                 <a href="singleproduct.html?id=${element?.id}&array=ViewedbyCustomers&object=INDEX2">
                     <div class="product-card-img double-img position-relative">
-                        <a href="product-default.html">
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        </a>
-                        <div class="view-and-favorite-area"></div>
-                        ${element?.type?.seller ? `<div class="ds_offer">${element?.type?.seller}</div> ` : ""}
+                            <div class="view-and-favorite-area"></div>
+                            ${element?.type?.seller ? `<div class="ds_offer">${element?.type?.seller}</div> ` : ""}
                         ${element?.type?.discount ? `<div class="ds_discount">${element?.type?.discount}</div> ` : ""}
                     </div>
                     <div class="product-card-content">
-                        <h6>
-                            <a href="product-default.html" class="ds_hover-underline">
-                                ${element?.title?.slice(0, 60)}
-                            </a>
-                        </h6>
-                        <div class="">
-                        </div>
-                        <p class="price">
+                    <h6>
+                    <p class="ds_hover-underline">
+                    ${element?.title?.slice(0, 60)}
+                    </p>
+                    </h6>
+                    <div class="">
+                    </div>
+                    <p class="price">
                             ₹${Math.round(element?.price - (element?.price * 10 / 100))} 
                             <del>₹${element?.price}</del>
-                        </p>
-                        <div class="ds_description">${element?.discription}</div>
-                        <div class="rating">
+                            </p>
+                            <div class="ds_description">${element?.discription}</div>
+                            <div class="rating">
                             <ul style="display: flex; gap: 2px;">${stars}</ul>
-                        </div>
-                    </div>
-                    <span class="for-border"></span>
-                </div>
-            </div>
-        `;
-    }).join("");
+                            </div>
+                            </div>
+                            <span class="for-border"></span>
+                            </a>
+                            </div>
+                            </div>
+                            `;
+                        }).join("");
 
     $(document).ready(function () {
         var swiper = new Swiper(".mySwiper1", {

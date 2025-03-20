@@ -801,7 +801,7 @@ ul {
   margin-bottom: 5px;
 }
 
-.product-card .product-card-content h6 a {
+.product-card .product-card-content h6 p {
   color: var(--text-color);
   font-size: 14px;
   font-family: var(--font-Jost);
@@ -812,7 +812,7 @@ ul {
   line-height: 1;
 }
 
-.product-card .product-card-content h6 a:hover {
+.product-card .product-card-content h6 p:hover {
   color:#2162a1;
 }
 
