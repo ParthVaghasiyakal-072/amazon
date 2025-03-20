@@ -21,10 +21,8 @@ async function bestOfficeProductsGetData() {
                 <div class="product-card hover-btn">
                             <a href="singleproduct.html?id=${element?.id}&array=OfficeProducts&object=INDEX5">
                     <div class="product-card-img double-img">
-               
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        <
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
@@ -120,7 +118,6 @@ async function bestAmazonRenewedGetData() {
                
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        <
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
@@ -216,7 +213,6 @@ async function bestMusicalInstrumentsGetData() {
                
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        <
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
@@ -312,7 +308,6 @@ async function bestGiftedInBeautyGetData() {
                
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        <
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
@@ -407,7 +402,7 @@ async function bestGardenOutdoorGetData() {
                
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        <
+                        
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
@@ -502,7 +497,7 @@ async function bestBooksGetData() {
                
                             <img src="${element?.image}" class="objectfit" />
                             <div class="batch"></div>
-                        <
+                    
                         <div class="view-and-favorite-area"></div>
                     </div>
                     <div class="product-card-content">
