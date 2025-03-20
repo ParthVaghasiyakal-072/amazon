@@ -106,11 +106,15 @@ document.addEventListener('DOMContentLoaded', function () {
                     itemCatogery.innerHTML = product?.catogery;
                 }
             } else {
+                console.log("cvbnwejvhweivghhviweghiehiwehgiewhhhhhhhhhhhhhhhhhhhhhhh");
+
                 const itemCatogery2 = document.getElementById("V_catogery2");
                 if (itemCatogery2) {
                     itemCatogery2.innerHTML = product?.catogery;
                 }
             }
+
+            
 
             if (!product.type?.seller?.trim()) {
                 document.getElementById("V_best").classList.add("d-none");
@@ -119,6 +123,10 @@ document.addEventListener('DOMContentLoaded', function () {
             if (!product.type?.discount?.trim()) {
                 document.getElementById("V_discount").classList.add("d-none");
                 document.getElementById("V_catogery2").classList.add("d-none");
+            }
+
+            if (!product.type?.seller?.trim() && !product.type?.discount?.trim()) {
+                document.getElementById("V_catogery2").classList.remove("d-none");  
             }
 
             const itemMRP = document.getElementById("V_mrp");
