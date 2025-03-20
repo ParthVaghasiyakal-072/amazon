@@ -633,7 +633,7 @@ flex-direction: column;
 }
 .subMenu {
     position: absolute !important;
-    top: 2px;
+    top: 3px;
     left: 0px;
     width:fit-content;
     padding: 2px 10px;

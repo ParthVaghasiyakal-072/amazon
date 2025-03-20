@@ -697,7 +697,7 @@ async function  bestViewedbyCustomersGetData() {
         return `
             <div class="swiper-slide p-3 h-100" key="${element?.id}">
                 <div class="product-card hover-btn h-100">
-                            <a href="singleproduct.html?id=${element?.id}&array=ViewedbyCustomers&object=INDEX2">
+                            <a href="singleproduct.html?id=${element?.id}&array=ViewedbyCustomers&object=INDEX5">
                     <div class="product-card-img double-img position-relative">
                         
                             <img src="${element?.image}" class="objectfit" />
